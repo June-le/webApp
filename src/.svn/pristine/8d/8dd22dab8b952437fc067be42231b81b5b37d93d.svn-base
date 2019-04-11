@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/trendsetter.css">
+    <script src="js/base.js"></script>
+
+</head>
+
+<body>
+    <!-- 潮人开始 -->
+
+    <!-- 潮人top开始 -->
+    <div class="trendsetter">
+        <div class="trend">
+            <p class="trend-text">潮人</p>
+            <p class="trend-line"></p>
+        </div>
+        <!-- 潮人banner开始 -->
+        <div class="swiper-container trendsetter-banner">
+            <div class="swiper-wrapper banner">
+                <a href="#" class="swiper-slide banner0"></a>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+        </div>
+        <!-- 潮人banner结束 -->
+    </div>
+    <!-- 潮人top结束 -->
+
+    <!-- 潮人bom开始 -->
+    <div class="trendsetter-bom">
+        <div class="swiper-container trendsetter-bom-banner">
+            <div class="swiper-wrapper tdt">
+                <a href="#" class="swiper-slide tdt-img"></a>
+                <a href="#" class="swiper-slide tdt-img"></a>
+                <a href="#" class="swiper-slide tdt-img"></a>
+                <a href="#" class="swiper-slide tdt-img"></a>
+                <a href="#" class="swiper-slide tdt-img"></a>
+                <a href="#" class="swiper-slide tdt-img"></a>
+            </div>
+        </div>
+    </div>
+    <!-- 潮人bom结束 -->
+
+<!-- 潮人结束 -->
+
+
+    <script src="js/swiper.min.js"></script>
+    <script>
+        // 潮人top轮播开始
+        var mySwiper = new Swiper('.trendsetter-banner', {
+            autoplay: true, //可选选项，自动滑动
+            loop: true, // 循环模式选项
+
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+            }
+        })
+        // 潮人top轮播结束
+
+        // 潮人bom滑动开始
+        var navSwiper = new Swiper('.trendsetter-bom-banner', {
+                freeMode: true,
+                slidesPerView: 'auto',
+                freeModeSticky: true,
+            })
+        // 潮人bom滑动结束
+
+    </script>
+</body>
+
+</html>

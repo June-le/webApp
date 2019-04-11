@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/indexEnd.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+</head>
+
+<body>
+
+
+
+    <!-- 本月爆款 -->
+    <div class="faddish">
+        <div class="title">
+            <p class="title-text">本月爆款</p>
+            <p class="title-line"></p>
+        </div>
+        <div class="content">
+            <a href="//m.wbiao.cn/goods/5677.html" class="img">
+                <img src="images/indexImage/faddish-1.jpg" alt="">
+            </a>
+        </div>
+        <div class="content">
+            <a href="//m.wbiao.cn/goods/5677.html" class="img">
+                <img src="images/indexImage/faddish-2.jpg" alt="">
+            </a>
+        </div>
+        <div class="content">
+            <a href="//m.wbiao.cn/goods/5677.html" class="img">
+                <img src="images/indexImage/faddish-3.jpg" alt="">
+            </a>
+        </div>
+        <div class="content">
+            <a href="//m.wbiao.cn/goods/5677.html" class="img">
+                <img src="images/indexImage/faddish-4.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <!-- 本月爆款End -->
+
+    <!-- 底部 -->
+    <section class="W_footer">
+        <a href="" class="index_home">
+            <div class="iconfont icon-fangzi"></div>
+            <div class="W_footer_title">首页</div>
+        </a>
+        <a class="index_find" href="">
+            <div class="iconfont icon-zhinanzhen1"></div>
+            <div class="W_footer_title">资讯</div>
+        </a>
+        <a class="index_classify" href="">
+            <div class="iconfont icon-icon--"></div>
+            <div class="W_footer_title">选表</div>
+        </a>
+        <a class="index_cart" href="">
+            <div class="iconfont icon-gouwuche"></div>
+            <div class="W_footer_title">购物车</div>
+        </a>
+        <a class="index_member" href="">
+            <div class="iconfont icon-wode"></div>
+            <div class="W_footer_title">我的</div>
+        </a>
+    </section>
+    <div class="W_ntalk">
+        <i class="iconfont icon-xiaoxi1"></i>
+    </div>
+</body>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/common.js"></script>
+<script>
+    $(function () {
+        var scro = (function () {
+            function scroll() {
+                $(window).scroll(function () {
+                    // console.log($(document).scrollTop());
+                    if ($(document).scrollTop() >= 800) {
+                        $('.W_ntalk').show();
+                    } else {
+                        $('.W_ntalk').hide();
+                    }
+                })
+            }
+            return {
+                scroll: scroll
+            }
+        })();
+        scro.scroll();
+
+        // var click = (function () {
+        //     function xb() {
+        //         $('.index_classify').click(function () {
+        //             $('.icon-icon--').addClass('iconBac');
+        //         })
+        //     }
+        //     return {
+        //         xb:xb
+        //     }
+        // })();
+        // click.xb();
+    })
+</script>
+
+
+
+
+</html>

@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>劳力士ROLEX_万表网</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/brandstore.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+</head>
+
+<body>
+    <!-- 首部固定定位部分 -->
+    <section class="storeInformation_p">
+        <div class="storeInformation">
+            <header class="header">
+                <a class="header_a">
+                    <i class="iconfont icon-jiantou4"></i>
+                </a>
+                <a class="header_b">
+                    <i class="iconfont icon-ai219"></i>
+                    <span>搜索店内商品</span>
+                </a>
+                <a class="header_c"></a>
+                <a class="header_d"></a>
+            </header>
+            <!-- 店铺封面 -->
+            <div class="wb_shop_box">
+                <div class="wb_shop_left fl">
+                    <a href="" class="sp_logo fl">
+                        <img src="../images/brandstore/logo.jpg" alt="">
+                    </a>
+                    <i class="shop_add">自营</i>
+                    <div class="sp_txt fl">
+                        <p class="sp_name">劳力士ROLEX</p>
+                        <p class="sp_sales">
+                            销量<em class="shop_sales">1161</em>&nbsp;
+                            粉丝<em class="shop_fans">1062</em>
+                        </p>
+                    </div>
+                </div>
+                <a href="" class="add_attention fr" shopcode="24" iscollect="0">
+                    <i>+</i>关注
+                </a>
+            </div>
+            <!-- 导航栏 -->
+            <nav class="wb_nav">
+                <ul>
+                    <li><a href="" class="on">首页</a></li>
+                    <li><a href="" class="ajx_commodity">商品</a></li>
+                    <li><a href="">上新</a></li>
+                    <li><a href="">动态</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <!-- 首部固定定位部分End -->
+    <main class="wrap">
+        <!-- 首页 -->
+        <div class="home">
+            <!-- 轮播 -->
+            <section class="swiper-container banner">
+                <div class="swiper-wrapper ban-w">
+                    <div class="swiper-slide ban1">
+                        <img src="../images/brandstore/ban1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide ban1">
+                        <img src="../images/brandstore/ban2.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <!--  -->
+            <section class="recommend">
+                <a href="" class="recommend_a">
+                    <img src="../images/brandstore/laoli.jpg" alt="">
+                </a>
+                <a href="" class="recommend_b">
+                    <img src="../images/brandstore/haoshi.jpg" alt="">
+                </a>
+                <a href="" class="recommend_c">
+                    <img src="../images/brandstore/rizhi.jpg" alt="">
+                </a>
+                <a href="" class="recommend_d">
+                    <img src="../images/brandstore/shi.jpg" alt="">
+                </a>
+                <a href="" class="recommend_e">
+                    <img src="../images/brandstore/xingqi.jpg" alt="">
+                </a>
+                <a href="" class="recommend_f">
+                    <img src="../images/brandstore/yuzhou.jpg" alt="">
+                </a>
+            </section>
+            <section class="wb_index_con">
+                <a href="">
+                    <img src="../images/brandstore/18ct.jpg" alt="">
+                </a>
+            </section>
+
+
+            <section class="store">
+                <a href="" class="store_a">
+                    <img src="../images/brandstore/store1.jpg" alt="">
+                </a>
+                <a href="" class="store_b">
+                    <img src="../images/brandstore/store2.jpg" alt="">
+                </a>
+                <a href="" class="store_c">
+                    <img src="../images/brandstore/store3.jpg" alt="">
+                </a>
+            </section>
+            <section class="wb_index_goods">
+                <a href="" sale-type="" sale-status="0" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/biao1.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士-蚝式恒动系列 177200-70160BU3A 女士机械表</p>
+                    <p class="p3"> ￥39,102 </p>
+                    <p class="p4">
+                        <em class="p_sales">销量 10</em>
+                    </p>
+                </a>
+                <a href="" sale-type="" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/biao2.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士ROLEX-日志型系列列116334-72210银 机械男表</p>
+                    <p class="p3"> ￥69,972 </p>
+                    <p class="p4">
+                        <em class="p_sales">销量 0</em>
+                    </p>
+                </a>
+                <a href="" sale-type="" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/biao3.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士ROLEX-蚝式恒动系列 115234-72190白色 机械男表</p>
+                    <p class="p3"> ￥57,134 </p>
+                    <p class="p4">
+                        <em class="p_sales">销量 1</em>
+                    </p>
+                </a>
+                <a href="" sale-type="" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/biao4.jpg" alt=""></p>
+                    <p class="p2 esp1">劳力士ROLEX-蚝式恒动系列 177200-70160 机械女表</p>
+                    <p class="p3"> ￥37,730 </p>
+                    <p class="p4">
+                        <em class="p_sales">销量 1</em>
+                    </p>
+                </a>
+                <a href="" class="to_more_goods">查看全部</a>
+            </section>
+
+
+            <section class="store">
+                <a href="">
+                    <img src="../images/brandstore/tui1.jpg" alt="">
+                </a>
+                <a href="">
+                    <img src="../images/brandstore/tui2.jpg" alt="">
+                </a>
+            </section>
+            <section class="wb_index_goods">
+                <a href="" sale-type="" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/biao5.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士-空中霸王系列 114234-70190蓝色橙色阿拉伯数字 男士自动机械表</p>
+                    <p class="p3"> ￥48,510 </p>
+                    <p class="p4">
+                        <em class="p_sales">销量 4</em>
+                    </p>
+                </a>
+                <a href="" sale-type="" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/biao6.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士-空中霸王系列 114234-70190黑色罗马数字11钻 男士自动机械表</p>
+                    <p class="p3"> ￥62,916 </p>
+                    <p class="p4">
+                        <em class="p_sales">销量 0</em>
+                    </p>
+                </a>
+                <a href="" sale-type="" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/biao7.jpg" alt=""></p>
+                    <p class="p2 esp1">劳力士-空中霸王系列 114234-70190粉红色369阿拉伯数字 男士自动机械表</p>
+                    <p class="p3"> ￥48,510 </p>
+                    <p class="p4">
+                        <em class="p_sales">销量 0</em>
+                    </p>
+                </a>
+                <a href="" sale-type="" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/biao8.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士-空中霸王系列 114234-70190粉红色罗马数字11钻 中性自动机械表</p>
+                    <p class="p3"> ￥62,916 </p>
+                    <p class="p4">
+                        <em class="p_sales">销量 0</em>
+                    </p>
+                </a>
+                <a href="" class="to_more_goods">查看全部</a>
+            </section>
+
+
+            <section class="store">
+                <a href="">
+                    <img src="../images/brandstore/tuijian1.jpg" alt="" class="series_a">
+                </a>
+                <a href="">
+                    <img src="../images/brandstore/tuijian2.jpg" alt="">
+                </a>
+            </section>
+            <section class="wb_index_goods">
+                <a href="" sale-type="" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/biao9.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士-蚝式恒动系列 116234-G-63600 黑石 男士机械表（已停产）</p>
+                    <p class="p3"> ￥75,558 </p>
+                    <p class="p4">
+                        <em class="p_sales">销量 3</em>
+                    </p>
+                </a>
+                <a href="" sale-type="" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/biao10.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士-蚝式恒动系列 116233-NG-63603 机械男表</p>
+                    <p class="p3"> ￥116,228 </p>
+                    <p class="p4">
+                        <em class="p_sales">销量 0</em>
+                    </p>
+                </a>
+                <a href="" sale-type="" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/biao11.jpg" alt=""></p>
+                    <p class="p2 esp1">劳力士ROLEX-蚝式恒动系列 179171-63131 粉红色10 机械女表</p>
+                    <p class="p3"> ￥84,280 </p>
+                    <p class="p4">
+                        <em class="p_sales">销量 1</em>
+                    </p>
+                </a>
+                <a href="" sale-type="" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/biao12.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士ROLEX-蚝式恒动系列 176200-70130REGR 机械女表</p>
+                    <p class="p3"> ￥36,946 </p>
+                    <p class="p4">
+                        <em class="p_sales">销量 0</em>
+                    </p>
+                </a>
+                <a href="" class="to_more_goods">查看全部</a>
+            </section>
+
+
+            <section class="store">
+                <a href="">
+                    <img src="../images/brandstore/dit.jpg" alt="" class="series_a">
+                </a>
+            </section>
+            <section class="wb_index_goods">
+                <a href="" sale-type="" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/biao13.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士ROLEX-宇宙计型迪通拿系列 116505 78595 迪通拿红金 粉盘黑色计时盘 男士机械表</p>
+                    <p class="p3"> ￥285,500 </p>
+                    <p class="p4">
+                        <em class="p_sales">销量 0</em>
+                    </p>
+                </a>
+                <a href="" sale-type="" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/biao14.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士-宇宙计型迪通拿系列 116503灰 男士自动机械表</p>
+                    <p class="p3"> ￥131,600 </p>
+                    <p class="p4">
+                        <em class="p_sales">销量 0</em>
+                    </p>
+                </a>
+                <a href="" sale-type="" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/biao15.jpg" alt=""></p>
+                    <p class="p2 esp1">劳力士ROLEX-宇宙计型迪通拿系列 116503白色表盘 机械男表</p>
+                    <p class="p3"> ￥131,600 </p>
+                    <p class="p4">
+                        <em class="p_sales">销量 2</em>
+                    </p>
+                </a>
+                <a href="" sale-type="" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/biao16.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士ROLEX-宇宙计型迪通拿系列 116503黑盘镶钻时标 机械男表</p>
+                    <p class="p3"> ￥146,300 </p>
+                    <p class="p4">
+                        <em class="p_sales">销量 2</em>
+                    </p>
+                </a>
+                <a href="" class="to_more_goods">查看全部</a>
+            </section>
+
+
+            <section class="store">
+                <a href="">
+                    <img src="../images/brandstore/nvz.jpg" alt="" class="series_a">
+                </a>
+            </section>
+            <section class="wb_index_goods">
+                <a href="" sale-type="" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/biao17.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士-女装日志型系列 178273-63163香槟色花纹10钻 女士机械表</p>
+                    <p class="p3"> ￥89,082 </p>
+                    <p class="p4">
+                        <em class="p_sales">销量 5</em>
+                    </p>
+                </a>
+                <a href="" sale-type="" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/biao18.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士-女装日志型系列 178273-63163银色10钻 女士机械表</p>
+                    <p class="p3"> ￥89,082 </p>
+                    <p class="p4">
+                        <em class="p_sales">销量 3</em>
+                    </p>
+                </a>
+                <a href="" sale-type="" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/biao19.jpg" alt=""></p>
+                    <p class="p2 esp1">劳力士-女装日志型系列 178273-63163银色花纹10钻 女士机械表</p>
+                    <p class="p3"> ￥89,082 </p>
+                    <p class="p4">
+                        <em class="p_sales">销量 2</em>
+                    </p>
+                </a>
+                <a href="" sale-type="" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/biao20.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士-女装日志型系列 178273-63163香槟色10钻 女士机械表</p>
+                    <p class="p3"> ￥89,082 </p>
+                    <p class="p4">
+                        <em class="p_sales">销量 3</em>
+                    </p>
+                </a>
+                <a href="" class="to_more_goods">查看全部</a>
+            </section>
+            <section class="kb"></section>
+        </div>
+        <!-- 商品 -->
+        <!-- 商品导航 -->
+        <div class="commodity none">
+            <div class="W_gnTab_nav">
+                <ul>
+                    <li class="on">综合</li>
+                    <li>销量</li>
+                    <li class="price">价格
+                        <i class="lowToHigh"></i>
+                        <i class="highToLow"></i>
+                    </li>
+                    <li>新品</li>
+                </ul>
+            </div>
+            <section class="wb_index_goods wb_index_goods_sp">
+            </section>
+            <script type="text/template" id="tpl">
+                <% list.list.forEach(function(i){ %>
+                    <a href="" sale-status="1" shop-type="1">
+                        <p class="p1">
+                            <img src="../images/brandstore/<%=i.img%>" alt="">
+                        </p>
+                        <p class="p2 esp1"><%=i.title%></p>
+                        <p class="p3"> ￥<%=i.price%> </p>
+                        <p class="p4">
+                            <span>自营</span>
+                            <em class="p_sales">销量 <%=i.sales%></em>
+                        </p>
+                    </a>
+                <% }) %>
+            </script>
+        </div>
+        <!-- 商品内容 -->
+
+        <!-- 上新 -->
+        <div class="new none">
+            <section class="wb_index_goods">
+                <a href="" sale-type="5" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/new/1.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士ROLEX-宇宙计型迪通拿系列 116508-78598GN 自动机械男表</p>
+                    <p class="p3"> ￥315,000 </p>
+                    <p class="p4">
+                        <span>自营</span>
+                        <em class="p_sales">销量 0</em>
+                    </p>
+                </a>
+                <a href="" sale-type="3" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/new/2.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士ROLEX-日志型系列 126331-G-62611SD 自动机械男表 太阳光泽表盘</p>
+                    <p class="p3"> ￥114,758 </p>
+                    <p class="p4">
+                        <span>自营</span>
+                        <em class="p_sales">销量 1</em>
+                    </p>
+                </a>
+                <a href="" sale-type="3" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/new/3.jpg" alt=""></p>
+                    <p class="p2 esp1">劳力士ROLEX-日志型系列 279175-83345S钻罗布纹 自动机械女表</p>
+                    <p class="p3"> ￥205,506 </p>
+                    <p class="p4">
+                        <span>自营</span>
+                        <em class="p_sales">销量 0</em>
+                    </p>
+                </a>
+                <a href="" sale-type="3" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/new/4.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士ROLEX-日志型系列 279175-G-83345WTNG 自动机械女表</p>
+                    <p class="p3"> ￥235,984 </p>
+                    <p class="p4">
+                        <span>自营</span>
+                        <em class="p_sales">销量 0</em>
+                    </p>
+                </a>
+                <a href="" sale-type="3" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/new/5.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士ROLEX-日志型系列 279175-G-83345CCS 自动机械女表 巧克力色表盘</p>
+                    <p class="p3"> ￥220,696 </p>
+                    <p class="p4">
+                        <span>自营</span>
+                        <em class="p_sales">销量 0</em>
+                    </p>
+                </a>
+                <a href="" sale-type="3" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/new/6.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士ROLEX-蚝式恒动系列 114300-70400BK 自动机械男表</p>
+                    <p class="p3"> ￥44,300 </p>
+                    <p class="p4">
+                        <span>自营</span>
+                        <em class="p_sales">销量 1</em>
+                    </p>
+                </a>
+                <a href="" sale-type="3" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/new/7.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士ROLEX-蚝式恒动系列 114300-70400WT 自动机械男表</p>
+                    <p class="p3"> ￥44,300 </p>
+                    <p class="p4">
+                        <span>自营</span>
+                        <em class="p_sales">销量 0</em>
+                    </p>
+                </a>
+                <a href="" sale-type="3" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/new/8.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士ROLEX-日志型系列 126300-72610SLR9 自动机械男表</p>
+                    <p class="p3"> ￥56,252 </p>
+                    <p class="p4">
+                        <span>自营</span>
+                        <em class="p_sales">销量 0</em>
+                    </p>
+                </a>
+                <a href="" sale-type="5" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/new/9.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士ROLEX-日志型系列 126300-72610BU 自动机械男表</p>
+                    <p class="p3"> ￥56,252 </p>
+                    <p class="p4">
+                        <span>自营</span>
+                        <em class="p_sales">销量 0</em>
+                    </p>
+                </a>
+                <a href="" sale-type="3" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/new/10.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士ROLEX-日志型系列 126300-72610SV 自动机械男表</p>
+                    <p class="p3"> ￥56,252 </p>
+                    <p class="p4">
+                        <span>自营</span>
+                        <em class="p_sales">销量 0</em>
+                    </p>
+                </a>
+                <a href="" sale-type="3" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/new/11.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士ROLEX-日志型系列 126300-72610BK 自动机械男表</p>
+                    <p class="p3"> ￥56,252 </p>
+                    <p class="p4">
+                        <span>自营</span>
+                        <em class="p_sales">销量 1</em>
+                    </p>
+                </a>
+                <a href="" sale-type="3" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/new/12.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士ROLEX-日志型系列 126300-72610DR 自动机械男表 深铑白色表盘</p>
+                    <p class="p3"> ￥56,252 </p>
+                    <p class="p4">
+                        <span>自营</span>
+                        <em class="p_sales">销量 0</em>
+                    </p>
+                </a>
+                <a href="" sale-type="3" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/new/13.png" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士ROLEX-蚝式恒动系列 177200-70160蓝罗 自动机械女表</p>
+                    <p class="p3"> ￥37,730 </p>
+                    <p class="p4">
+                        <span>自营</span>
+                        <em class="p_sales">销量 1</em>
+                    </p>
+                </a>
+                <a href="" sale-type="3" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/new/14.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士ROLEX-蚝式恒动系列 177200-70160BK 自动机械女表</p>
+                    <p class="p3"> ￥37,730 </p>
+                    <p class="p4">
+                        <span>自营</span>
+                        <em class="p_sales">销量 1</em>
+                    </p>
+                </a>
+                <a href="" sale-type="3" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/new/15.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士ROLEX-蚝式恒动系列 177200-70160DGRM 自动机械女表</p>
+                    <p class="p3"> ￥37,730 </p>
+                    <p class="p4">
+                        <span>自营</span>
+                        <em class="p_sales">销量 0</em>
+                    </p>
+                </a>
+                <a href="" sale-type="3" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/new/16.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士ROLEX-蚝式恒动系列 177200-70160银369伯粉条 自动机械女表</p>
+                    <p class="p3"> ￥37,730 </p>
+                    <p class="p4">
+                        <span>自营</span>
+                        <em class="p_sales">销量 1</em>
+                    </p>
+                </a>
+                <a href="" sale-type="3" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/new/17.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士Rolex-蚝式恒动系列 116000-70200BK 自动机械男表</p>
+                    <p class="p3"> ￥40,866 </p>
+                    <p class="p4">
+                        <span>自营</span>
+                        <em class="p_sales">销量 0</em>
+                    </p>
+                </a>
+                <a href="" sale-type="3" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/new/18.jpg" alt=""></p>
+                    <p class="p2 esp1">劳力士Rolex-蚝式恒动系列 116000-70200WT 自动机械男表</p>
+                    <p class="p3"> ￥40,866 </p>
+                    <p class="p4">
+                        <span>自营</span>
+                        <em class="p_sales">销量 0</em>
+                    </p>
+                </a>
+                <a href="" sale-type="3" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/new/19.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士Rolex-蚝式恒动系列 116000-70200白葡萄 自动机械男表</p>
+                    <p class="p3"> ￥40,866 </p>
+                    <p class="p4">
+                        <span>自营</span>
+                        <em class="p_sales">销量 0</em>
+                    </p>
+                </a>
+                <a href="" sale-type="3" sale-status="1" shop-type="1">
+                    <p class="p1">
+                        <img src="../images/brandstore/new/20.jpg" alt="">
+                    </p>
+                    <p class="p2 esp1">劳力士Rolex-蚝式恒动系列 116000-70200红葡萄 自动机械男表</p>
+                    <p class="p3"> ￥40,866 </p>
+                    <p class="p4">
+                        <span>自营</span>
+                        <em class="p_sales">销量 0</em>
+                    </p>
+                </a>
+            </section>
+        </div>
+        <!-- 动态 -->
+        <div class="dynamic none">
+            <section class="W_nodata">
+                <div class="W_nodata_a">暂无动态</div>
+                <div class="W_nodata_b">先看看其他吧</div>
+            </section>
+        </div>
+    </main>
+
+
+
+
+    <!-- 尾部 -->
+    <section class="W_pt_shopBottom_p">
+        <div class="W_pt_shopBottom">
+            <ul>
+                <li><a href="/shop/species/24">商品分类</a></li>
+                <li><a href="/shop/introduce/24">关于我们</a></li>
+                <li class="CUSTOMER-SERVICE">
+                    <a href="javascript:;">联系商家</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+</body>
+<script src="../js/common.js"></script>
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script src="../js/ejs.js"></script>
+<script src="../js/swiper.min.js"></script>
+<script src="../js/brandstore.js"></script>
+
+
+
+
+</html>

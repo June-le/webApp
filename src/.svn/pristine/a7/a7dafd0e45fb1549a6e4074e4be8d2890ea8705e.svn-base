@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/base.js"></script>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/touch.js"></script>
+    <link rel="stylesheet" href="css/mingjiang-dianpu.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="add">
+            <a href="#">
+                <i class="icon-d-position"></i>
+                <span>未知</span>
+                <i class="icon-d-home_arrow"></i>
+            </a>
+        </div>
+        <div class="logo">店铺</div>
+    </div>
+    <div class="W_gnTab_nav">
+        <ul>
+            <li class="on"><a href="javascript:void(0);">智能排序</a></li>
+            <li><a href="javascript:void(0);">离我最近</a></li>
+            <li><a href="javascript:void(0);">支持邮寄</a></li>
+        </ul>
+    </div>
+    <div class="W_gnTab_content" id="gnTabCon">
+        <div class="gnTabs_block gnTabs_block1 gn-block">
+            <div class="W_shop"> <a href="#">
+                    <div class="shop-img">
+                        <img src="images/mingjiang/5190cb9d96be498a9a0528b4700ed790.png" alt="">
+                        <span>35</span>
+                    </div>
+                    <div class="shop-info">
+                        <p class="p1 elps1">準壹名錶行</p>
+                        <p class="p3"> <span>50年维修老店</span> <span>打造百年名表行</span> </p>
+                        <p class="p5"></p>
+                        <p class="p4">营业时间 8：30—19：00</p>
+                    </div>
+                </a> </div>
+        </div>
+        <div class="gnTabs_block gnTabs_block2">
+            <div class="W_shop">
+                <a href="#">
+                    <div class="shop-img">
+                        <img src="images/mingjiang/5190cb9d96be498a9a0528b4700ed790.png" alt="">
+                        <span>35</span>
+                    </div>
+                    <div class="shop-info">
+                        <p class="p1 elps1">準壹名錶行</p>
+                        <p class="p3"> <span>50年维修老店</span> <span>打造百年名表行</span> </p>
+                        <p class="p5">119.42km</p>
+                        <p class="p4">营业时间 8：30—19：00</p>
+                    </div>
+                </a> </div>
+        </div>
+        <div class="gnTabs_block gnTabs_block3">
+            <div class="W_shop">
+                <a href="#">
+                    <div class="shop-img">
+                        <img src="images/mingjiang/824be7f12d1f43c48f1246fe0c2d52be.png" alt="">
+                        <span>1026</span>
+                    </div>
+                    <div class="shop-info">
+                        <p class="p1 elps1">万表名匠维修总部（广州）</p>
+                        <p class="p3"> <span>万表名匠总部</span> <span>诚信服务</span> <span>30年维修经验</span> </p>
+                        <p class="p5"></p>
+                        <p class="p4">营业时间 10:00-20:30</p>
+                    </div>
+                </a> </div>
+        </div>
+    </div>
+    <div class="W_footer">
+        <a class="index_home" href="mingjiang-index.html">
+            <div class="W_footer_img icon-d-home-none"></div>
+            <div class="W_footer_title">首页</div>
+        </a>
+        <a class="index_shop on" href="mingjiang-dianpu.html">
+            <div class="W_footer_img icon-d-shop-none"></div>
+            <div class="W_footer_title">店铺</div>
+        </a>
+        <a class="LOGIN" href="javascript:void(0);">
+            <div class="W_footer_img icon-d-service"></div>
+            <div class="W_footer_title services">申请维修</div>
+        </a>
+        <a class="index_member" href="#">
+            <div class="W_footer_img icon-d-find-none"></div>
+            <div class="W_footer_title">发现</div>
+        </a>
+        <a class="index_member" href="#">
+            <div class="W_footer_img icon-d-mine-none"></div>
+            <div class="W_footer_title">我的</div>
+        </a>
+    </div>
+</body>
+<script src="js/mingjiang-dianpu.js"></script>
+
+</html>

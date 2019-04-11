@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/base.js"></script>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/touch.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/Login.css">
+</head>
+
+<body>
+    <header>
+        <div class="W-back">
+            <a href="javascript:window.history.back();" class="icon-d-back02"></a>
+        </div>
+        <div class="zhu-txt">
+            <a href="#">注册</a>
+        </div>
+    </header>
+    <div class="tab_nav">
+        <p class="user psd_login active">手机登录</p>
+        <p class="user user_login">账号登录</p>
+    </div>
+    <div class="W_container">
+        <div class="contents">
+            <div class="user_logins logins">
+                <div class="box">
+                    <p class="phone">
+                        <input maxlength="13" type="tel" onkeyup="value=value.replace(/[^\d\s]/g,'')" placeholder="手机号"
+                            class="phone_num">
+                    </p>
+                    <p class="identify">
+                        <input type="text" placeholder="图形验证码" id="identify_code" maxlength="4" class="yan">
+                        <a id="v_container" class="note-img"></a>
+                    </p>
+                    <p class="note">
+                        <input maxlength="6" onkeyup="value=value.replace(/[^\d]/g,'')" type="tel" placeholder="短信验证码"
+                            class="note_code">
+                        <a href="javascript:void(0);" id="sendCode">获取验证码</a>
+                    </p>
+                </div>
+                <a href="javascript:void(0);" class="login" id="mobile_login">登&nbsp;&nbsp;录</a>
+            </div>
+            <div class="psd_logins logins h">
+                <div class="box account">
+                    <p class="phone">
+                        <input type="text" placeholder="手机号/会员名/邮箱" id="userName">
+                    </p>
+                    <p class="phone">
+                        <input type="password" placeholder="请输入密码" id="userPsd"><i class="icon-a-eye"></i>
+                    </p>
+                </div>
+                <a href="javascript:void(0);" class="login" id="user_login">登&nbsp;&nbsp;录</a>
+                <a href="#" class="forget_pass ">忘记密码?</a>
+            </div>
+        </div>
+    </div>
+    <div class="alert h"></div>
+</body>
+<script src="js/yanzheng.js"></script>
+<script src="js/util.js"></script>
+<script src="js/Login.js"></script>
+
+</html>

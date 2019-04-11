@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>云表·竞拍</title>
+    <link rel="stylesheet" href="css/jingpai.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+</head>
+
+<body>
+    <!-- 头部开始 -->
+    <header>
+        <a href="jingpai2.html" class="icon"></a>
+        <div class="title">云表·竞拍</div>
+    </header>
+    <!-- 头部结束 -->
+
+    <!-- 主体内容开始 -->
+    <main>
+        <!-- 内容详情信息开始 -->
+        <div class="W-main">
+            <!-- banner图开始 -->
+            <div class="banner">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/yl-img/jingpai.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 如果需要分页器 -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <!-- banner图结束 -->
+
+            <!-- 导航开始 -->
+            <div class="nav">
+                <ul>
+                    <li class="on">
+                        <i></i>
+                        <a href="#">最新发布</a>
+                    </li>
+                    <li>
+                        <i></i>
+                        <a href="#">优品甄选</a>
+                    </li>
+                    <li class="on2">
+                        <i></i>
+                        <a href="#" class="on2">万表自营</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 导航结束 -->
+
+            <!-- 点击导航tab切换开始 -->
+            <div class="content">
+                <div class="tabs tabs-block"></div>
+                <div class="tabs"></div>
+                <div class="tabs">
+                    <div class="W-none">
+                        <i class="icon-d-norecord"></i>
+                        <p>～空空如也～</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 点击导航tab切换结束 -->
+        </div>
+        <!-- 内容详情信息结束 -->
+
+        <!-- 尾部开始 -->
+        <div class="footer">
+            <div class="footer-box">
+                <a href="jingpai.html">
+                    <i class="ico"></i>
+                    <p class="on">首页</p>
+                </a>
+                <a href="#">
+                    <em class="icon-d-release"></em>
+                    <p class="text">发布</p>
+                </a>
+                <a href="#">
+                    <i class="icon-d-mine01"></i>
+                    <p>我的</p>
+                </a>
+            </div>
+        </div>
+        <!-- 尾部结束 -->
+    </main>
+    <!-- 主体内容结束 -->
+
+    <!-- ejs模板发起ajax请求 -->
+    <script type="text/template" id="list">
+        <% for(var i = 0; i<data.length; i++){ %>
+            <a href="#" class="auctionCode">
+                <p class="p1">
+                    <img src="images/yl-img/<%=data[i].img%>" alt="">
+                </p>
+                <div class="p4">
+                    <p><%=data[i].Discount%></p>
+                </div>
+                <p class="p2"><%=data[i].txt%></p>
+                <p class="p3">
+                    <%=data[i].money%>
+                    <span class="marketPrice"><%=data[i].price%></span>
+                    <span class="fr"><%=data[i].state%></span>
+                </p>
+            </a>
+        <%}%>
+    </script>
+    <!-- ejs模板发起ajax请求 -->
+
+
+
+    <script src="js/base.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/ejs.js"></script>
+    <script src="js/jingpai.js"></script>
+    <script>
+        window.onload = function () {
+            var BannerSwiper = new Swiper('.swiper-container', {
+                pagination: {
+                    el: '.swiper-pagination',
+                }
+            })
+        }
+    </script>
+</body>
+
+</html>

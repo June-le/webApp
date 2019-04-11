@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 100px;
+}
+.clearfix::after{
+    content: '.';
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+/* 头部 */
+.prolist .header{
+    width: 7.5rem;
+    height: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items : center;
+}
+.prolist .header .header_a{
+    width: 0.88rem;
+    height: 0.88rem;
+    text-align: center;
+    line-height: .88rem;
+}
+.prolist .header .header_a i{
+    color: #888;
+    font-size: .4rem;
+}
+
+.prolist .header .header_b{
+    position: relative;
+    background: #f1f1f1;
+    width: 4.84rem;
+    height: .52rem;
+    color: #999;
+    border-radius: .26rem;
+}
+.prolist .header .header_b span{
+    position: absolute;
+    left: .7rem;
+    line-height: .52rem;
+}
+.prolist .header .header_b i{
+    position: absolute;
+    top: .1rem;
+    left: .2rem;
+    font-size: .35rem;
+    
+}
+.prolist .header_d {
+    display: block;
+    background-image: url(../images/photo/d.png);
+    background-position: -2.94rem -3.73rem;
+    background-size: 8.57rem;
+    width: .88rem;
+    height: .88rem;
+}
+/* 头部结束 */
+/* 筛选选项 */
+.p-banner{
+    margin-top: .1rem;
+}
+.p-banner li{
+    float: left;
+    margin: 0 .4rem;
+    color: gray;
+    font-size: .2rem;
+}
+.p-banner a{
+    color: rgb(167, 165, 165);
+}
+.p-banner .banner-nav a{
+    color: red;
+}
+.p-banner .banner_a {
+    margin-left:.3rem; 
+    vertical-align: middle;
+    display: inline-block;
+    background-image: url(../images/photo/a.png);
+    background-position: -2rem -6.98rem;
+    background-size: 8.86rem;
+    width: .28rem;
+    height: .28rem;
+}
+/* 筛选选项结束 */
+/* 筛选列表 */
+/* 头部 */
+.p-filt{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+    z-index: 100;
+}
+.p-filt .filt-list{
+    width: 6.4rem;
+    /* height: 100%; */
+    background-color: white;
+    position: relative;
+    /* position: fixed; */
+    top: 0;
+    left: 1.09rem;
+}
+.p-filt .filt-list header{
+    height: 1rem;
+    background-color: rgb(235, 231, 231);
+}
+.p-filt header .f-shut{
+    display: inline-block;
+    background-image: url(../images/photo/a.png);
+    background-position: -6.6rem .1rem;
+    background-size: 8.86rem;
+    width: .88rem;
+    height: .88rem;
+}
+.p-filt header span{
+    font-size: .32rem;
+    display: inline-block;
+    margin: .2rem auto;
+    position: absolute;
+    top: 0;
+    left: 3rem;
+}
+/* 内容 */
+.p-filt .filt-content{
+    height: 10.84rem;
+    width: 6.4rem;
+    margin-left: 1.09rem;
+    background-color: white;
+}
+.p-filt .filt-cont{
+    width: 6.4rem;
+    /* height: 100%; */
+    background-color: white;
+    position: absolute;
+    top: 1rem;
+    left: 1.09rem;
+}
+.p-filt .filt-cont .f-cont1{
+    margin: .5rem 0;
+}
+.p-filt .filt-cont .f-cont1 p{
+    margin-left: .2rem;
+    font-weight: bold;
+    display: inline;
+}
+.p-filt .filt-cont .f-cont1 ul li{
+    display: inline-block;
+    margin: .1rem 0 .1rem .25rem;
+    width: 1.8rem;
+    height: 0.8rem;
+    background-color: rgb(238, 245, 239);
+    text-align: center;
+    line-height: .8rem;
+    font-size: .24rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.p-filt .filt-cont .f-cont2{
+    display: block;
+}
+.p-filt .filt-cont .f-cont2 p{
+    margin-right: 5rem;
+}
+.p-filt .filt-cont .f-cont1 .f-price{
+    display: inline-block;
+    width: 30%;
+    margin-top: 2%;
+    margin-right: 1%;
+    margin-bottom: .5rem;
+    float: left;
+    margin-left: 5%;
+    height: .8rem;
+    line-height: .8rem;
+    background: rgb(233, 235, 233);
+    border-radius: .04rem;
+    font-size: .12rem;
+}
+.p-filt .filt-cont .f-cont1 input{
+    display: inline-block;
+    width: 100%;
+    border: 0;
+    background: none;
+    outline: none;
+    font-size: .12rem;
+    color: #333;
+    text-align: center;
+}
+.p-filt .filt-cont .f-cont1 .price-xian{
+    display: inline-block;
+    width: 5%;
+    height: .01rem;
+    margin: 7% 2% 0% 2%;
+    float: left;
+    background: #333;
+}
+.p-filt .filt-cont .f-cont1 .pinpai-list{
+    float: right;
+}
+/* 底部 */
+.p-filt .filt-bottom{
+    width: 6.4rem;
+    height: 1.5rem;
+    background-color: white;
+    position: relative;
+    position: fixed;
+    bottom: 0;
+    left: 1.09rem;
+    border-top: .01rem solid gray;
+}
+.p-filt .filt-bottom div{
+    float: left;
+    margin: .35rem 0;
+    font-size: .32rem;
+    width: 50%;
+    /* height: .8rem; */
+    /* border: .01rem solid red; */
+    text-align: center;
+    line-height: .8rem;
+}
+.p-filt .filt-bottom .bottom-confirm{
+    width: 2.5rem;
+    height: .8rem;
+    margin-left: .35rem;
+    border: .01rem solid red;
+    background-color: red;
+    color: white;
+    border-radius: .05rem;
+}
+/* 筛选列表结束 */
+/* 商品列表 */
+.p-list{
+    width: 7.5rem;
+    height: 14.16rem;
+    background: #f1f1f1;
+}
+.p-list a:nth-child(odd) {
+    margin-right: 1.866%;
+}
+.p-list a {
+    float: left;
+    width: 49.067%;
+    height: 6.4rem;
+    background: #fff;
+    margin-top: .16rem;
+}
+.p-list a .p1 {
+    position: relative;
+    overflow: hidden;
+    margin-top: .24rem;
+    height: 4.4rem;
+}
+.p-list a p {
+    padding: 0 .24rem;
+    margin: 0 auto;
+}
+.p-list a .p1 img {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: auto;
+    height: 100%;
+}
+.p-list a .p2 {
+    padding-top: .28rem;
+    font-size: .24rem;
+    color: #666;
+}
+.p-list a .p2 span{
+    color: black;
+    font-weight: bold;
+}
+.esp1 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.p-list a .p3 {
+    font-size: .32rem;
+    font-weight: bold;
+    color: #333;
+    line-height: .24rem;
+    padding: 8px .24rem;
+    letter-spacing: -.02rem;
+    font-size: .3rem;
+    font-family: "DIN-Bold";
+}
+.p-list a .p3 del{
+    font-weight: 100;
+    color: rgb(190, 186, 186);
+    font-size: .1rem;
+    font-family: "DIN-Bold";
+}
+.p-list a .p4 span{
+    display: inline-block;
+    font-size: .1rem;
+    line-height: .25rem;
+    text-align: center;
+    border-radius: .02rem;
+    padding: .02rem .05rem .02rem; 
+    color: rgb(206, 164, 87);
+    border: .01rem solid rgb(206, 164, 87);
+}

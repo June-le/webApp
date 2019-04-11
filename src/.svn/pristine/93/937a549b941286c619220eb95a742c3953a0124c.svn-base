@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="format-detection" content="telephone = no">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="万表网">
+    <meta name="keywords" content="万表网">
+    <title>修改个人资料</title>
+    <link rel="stylesheet" href="css/common2.min.css">
+    <link rel="stylesheet" href="css/modify.css">
+</head>
+<body>
+    <header class="W_title">
+        <ul class="clearfix">
+            <li class="wb_back"><a href="javascript:window.history.back();" class="icon-d-back02"></a></li>
+            <li class="wb_title_middle wb_title">个人资料</li>
+        </ul>
+    </header>
+    <main>
+        <div class="W-member-profile">
+            <h5>基本资料</h5>
+
+            <p class="pro-info">
+                <span class="p-tit">账号名称</span>
+                <input type="text" class="p-input vip-name" value="wb5385675" membercode="5385675" readonly="">
+            </p>
+            <p class="pro-info">
+
+                <span class="p-tit">万表昵称</span>
+                <input type="text" class="p-input vip-nick" placeholder="未完善" value="dm" maxlength="20">
+                <span class="inp_clean h"><i class="icon-a-close02"></i></span>
+            </p>
+            <p class="pro-info">
+                <span class="p-tit">姓氏</span>
+                <input type="text" class="p-input real-name" placeholder="便于我们更好的为您服务" value="mm" maxlength="20">
+                <span class="inp_clean h"><i class="icon-a-close02"></i></span>
+            </p>
+            <p class="pro-info">
+                <span class="p-tit">性别</span>
+                <span class="picker-txt sel-sex on-sel" gender="0">女士</span><i class="icon-a-r-arrow"></i>
+            </p>
+            <p class="pro-info">
+                <span class="p-tit">所在地</span>
+                <span class="picker-txt sel-area on-sel">
+                    <em class="sel-em" id="c-province" c-code="11">河南</em>
+                    <em class="sel-em" id="c-city" c-code="149">郑州</em>
+                    <em class="sel-em" id="c-region" c-code="0"></em>
+                </span>
+                <i class="icon-a-r-arrow"></i>
+            </p>
+            <h5>个人信息</h5>
+            <p class="pro-info">
+                <span class="p-tit">绑定手机</span>
+                <input type="text" class="p-input p-phone" v alue="18803978379" readonly="">
+            </p>
+            <p class="pro-info">
+                <span class="p-tit">会员等级</span>
+                <a href="https://mu.wbiao.cn/member/grade" class="p-input vip-grade">银卡</a>
+                <i class="icon-a-r-arrow"></i>
+            </p>
+            <p class="pro-info">
+                <span class="p-tit">生日</span>
+                <span class="picker-txt sel-birthday on-sel">2019-01-24</span>
+                <i class="icon-a-r-arrow"></i>
+            </p>
+            <p class="pro-info">
+                <span class="p-tit">个人职业</span>
+                <span class="picker-txt sel-profes">未完善</span>
+                <i class="icon-a-r-arrow"></i>
+            </p>
+            <p class="pro-info">
+                <span class="p-tit">拥有表数</span>
+                <span class="picker-txt sel-quantity">0</span>
+                <i class="icon-a-r-arrow"></i>
+            </p>
+            <p class="pro-info">
+                <span class="p-tit">选表偏好</span>
+                <span class="picker-txt sel-tagList">未完善</span>
+                <i class="icon-a-r-arrow"></i>
+            </p>
+        </div>
+        <div class="W-bottom-btn"> 
+            <a href="javascript:void(0);">保存</a>
+        </div>
+        <!-- <div id="W-select-sex" class="mui-popover mui-popover-bottom mui-popover-action">
+            <ul class="mui-table-view wb-select">
+                <li class="mui-table-view-cell"> <a href="javascript:void(0);" gender="1">男士</a></li>
+                <li class="mui-table-view-cell"> <a href="javascript:void(0);" gender="0">女士</a></li>
+            </ul>
+            <ul class="mui-table-view sel-cancel">
+                <li class="mui-table-view-cell"> <a href="javascript:void(0);">取消</a></li>
+            </ul>
+        </div>
+        <div id="W-select-tagList" class="mui-popover mui-popover-bottom mui-popover-action W-select-tagList">
+            <div class="W-select-title">
+                <p>选择偏好</p><i class="icon-a-close03 sel-cancel"></i>
+            </div>
+            <div class="mui-table-view wb-select">
+                <ul>
+                    <li class="mui-tag-list" data-tag-code="697"> <span>石英表</span><i class="icon-d-selected"></i></li>
+                    <li class="mui-tag-list" data-tag-code="698"> <span>机械表</span><i class="icon-d-selected"></i></li>
+                    <li class="mui-tag-list" data-tag-code="699"> <span>年轻潮牌</span><i class="icon-d-selected"></i></li>
+                    <li class="mui-tag-list" data-tag-code="701"> <span>新款</span><i class="icon-d-selected"></i></li>
+                    <li class="mui-tag-list" data-tag-code="702"> <span>经典款</span><i class="icon-d-selected"></i></li>
+                    <li class="mui-tag-list" data-tag-code="707"> <span>顶级品牌</span><i class="icon-d-selected"></i></li>
+                    <li class="mui-tag-list" data-tag-code="708"> <span>奢华品牌</span><i class="icon-d-selected"></i></li>
+                    <li class="mui-tag-list" data-tag-code="709"> <span>轻奢品牌</span><i class="icon-d-selected"></i></li>
+                    <li class="mui-tag-list" data-tag-code="711"> <span>商务正装款</span><i class="icon-d-selected"></i></li>
+                    <li class="mui-tag-list" data-tag-code="712"> <span>时尚休闲款</span><i class="icon-d-selected"></i></li>
+                    <li class="mui-tag-list" data-tag-code="713"> <span>专业运动款</span><i class="icon-d-selected"></i></li>
+                    <li class="mui-tag-list" data-tag-code="714"> <span>现代智能款</span><i class="icon-d-selected"></i></li>
+                    <li class="mui-tag-list" data-tag-code="715"> <span>高端收藏款</span><i class="icon-d-selected"></i></li>
+                </ul>
+            </div>
+            <div class="W-select-btn"> <a href="javascript:void(0);">完成</a></div>
+        </div> -->
+    </main>
+    <section class="W_common_con" style="height: 0px;">
+        <div class="con_box" style="right: -371px;"></div>
+    </section>
+    
+</body>
+
+</html>

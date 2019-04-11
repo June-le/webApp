@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/base.js"></script>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/touch.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/regist.css">
+</head>
+
+<body>
+    <header>
+        <div class="wb-back">
+            <a href="javascript:window.history.back();" class="icon-d-back02"></a>
+        </div>
+    </header>
+    <div class="W_content">
+        <div class="register_title">
+            <h2>注册万表会员</h2>
+            <p>有账号? <a href="#">去登录</a></p>
+        </div>
+        <p class="phone">
+            <input oninput="if(value.length>11)value=value.slice(0,11)" type="number" placeholder="手机号" id="phone">
+        </p>
+        <p class="phone none">
+            <input oninput="if(value.length>11)value=value.slice(0,11)" type="number" placeholder="如有推荐人，请填写推荐人手机号" id="referrer_phone">
+        </p>
+        <p class="identify">
+            <input type="text" placeholder="图形验证码" id="identify_code" maxlength="4" class="yan">
+            <a id="v_container" class="note-img"></a>
+        </p>
+        <p class="note">
+            <input type="number" placeholder="短信验证码" id="note_code" maxlength="6">
+            <a href="javascript:void(0);" id="send_code">发送验证码</a>
+        </p>
+        <p class="password">
+            <input type="password" placeholder="设置密码" id="setpassword"></p> <a href="javascript:void(0);" class="nextBtn"
+            id="register">注&nbsp;&nbsp;册</a>
+        <p class="register_agreement">点击注册意味着阁下同意<a href="https://mu.wbiao.cn/member/protocol">《万表用户协议》</a></p>
+    </div>
+    <div class="alert h"></div>
+</body>
+<script src="js/util.js"></script>
+<script src="js/yanzheng.js"></script>
+<script src="js/regist.js"></script>
+
+</html>

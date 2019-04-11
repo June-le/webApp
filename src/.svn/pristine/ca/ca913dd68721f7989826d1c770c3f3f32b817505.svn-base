@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 100px;
+}
+a{
+    text-decoration: none;
+}
+main img{
+    width: 100%;
+}
+/* 顶部开始 */
+main .head .title{
+    width: 100%;
+    background-color: #262626;
+    border-bottom: .05rem solid #d1af67;
+    padding: .3rem 0;
+    display: flex;
+}
+main .head .title a{
+    display: flex;
+    margin-top: .1rem;
+}
+main .head .title a .icon{
+    background: url(../images/yl-img/left-jt.png) no-repeat 0 0;
+    background-size: cover;
+    width: .39rem;
+    height: .39rem;
+    margin: 0 .1rem 0 .2rem;
+}
+main .head .title a .text{
+    font-size: .28rem;
+    color: #fff;
+    line-height: .4rem;
+}
+main .head .title .logo{
+    font-size:.4rem;
+    font-weight: 700;
+    color: #e0b577;
+    margin-left: 2rem;
+}
+/* 顶部结束 */
+
+/* 导航开始 */
+main .head .nav{
+    padding: .26rem 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+main .head .nav .navi .swiper-wrapper .on{
+    color: #d1af67;
+}
+.head .nav .navi .swiper-wrapper .swiper-slide{
+    font-size: .26rem;
+    width: 1.44rem;
+    text-align: center;
+    color: #333;
+    font-weight: 700;
+}
+/* 导航结束 */
+
+/* banner图开始 */
+main .banner{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #f1f1f1;
+}
+.banner .banneri .swiper-wrapper .swiper-slide{
+    position: relative;
+    height: 4.52rem;
+    width: 6.794rem;
+    margin: 0 .1rem;
+}
+.banner .banneri .swiper-wrapper .swiper-slide img{
+    border-radius: .12rem;
+}
+.banner .banneri .swiper-wrapper .swiper-slide .text{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    height: .7rem;
+    line-height: .7rem;
+    font-size: .24rem;
+    color: #fff;
+    text-indent:.22rem;
+    border-bottom-left-radius:.12rem;
+    border-bottom-right-radius:.12rem;
+}
+/* banner图的下标开始 */
+.banner .banneri .circle{
+    position: absolute;
+    bottom: .22rem;
+    left: 80%;
+    color: #fff;
+    font-size: .24rem;
+    width: 10%;
+    text-align: right;
+}
+/* banner图的下标结束 */
+
+/* banner图结束 */
+
+/* 课堂开始 */
+main .modular{
+    padding: .3rem;
+    border-bottom: .02rem solid #f1f1f1;
+    display: flex;
+}
+.modular a{
+    width: 49%;
+}
+.modular a:nth-child(1){
+    margin-right: .15rem;
+}
+.modular a .img{
+    position: relative;
+    height: 1.7rem;
+}
+.modular a .img img{
+    border-radius: .1rem;
+}
+.modular a .img .tag{
+    position: absolute;
+    left: .22rem;
+    top: 0;
+    color: #d1af67;
+    background-image: radial-gradient(100% 100%,#6c6c6c 0,#333 100%);
+    font-size: .2rem;
+    text-align: center;
+    width: .88rem;
+    height: .36rem;
+    line-height: .36rem;
+}
+.modular a .img .tag2{
+    position: absolute;
+    right: .2rem;
+    bottom: .14rem;
+    color: #fff;
+    font-size: .2rem;
+}
+.modular a .title{
+    font-size: .24rem;
+    color: #333;
+    margin-top: .1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/* 课堂结束 */
+
+/* 咨询新闻开始 */
+main .fashion{
+    padding: .3rem;
+    border-bottom: .02rem solid #f1f1f1;
+}
+.fashion a .title{
+    font-size: .32rem;
+    color: #333;
+    line-height: .48rem;
+}
+.fashion a .img{
+    margin-top: .2rem;
+}
+.fashion a .img img{
+    border-radius: .06rem;
+}
+.fashion .time{
+    display: flex;
+    justify-content: space-between;
+    font-size: .24rem;
+    color: #999;
+}
+/* 咨询新闻结束 */
+
+/* 尾部导航开始 */
+footer{
+    width: 7.5rem;
+    height: 1.2rem;
+}
+.foot-content{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #262626;
+    display: flex;
+    width: 100%;
+    height: 1.2rem;
+}
+.foot-content a{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .1rem;
+}
+.foot-content a .text{
+    font-size: .2rem;
+    color: #999;
+    text-align: center;
+}
+footer .foot-content a .on{
+    color: #d1af67;
+}
+.foot-content a .icon-img{
+    width: .6rem;
+    height: .6rem;
+    margin: .08rem 0 .04rem 0;
+}
+.foot-content a .icon-img1{
+    background: url(../images/yl-img/home-page.png) no-repeat 0 0;
+    background-size: cover;
+}
+.foot-content a .icon-img2{
+    background: url(../images/yl-img/fx.png) no-repeat 0 0;
+    background-size: cover;
+}
+.foot-content a .icon-img3{
+    background: url(../images/yl-img/xb.png) no-repeat 0 0;
+    background-size: cover;
+}
+.foot-content a .icon-img4{
+    background: url(../images/yl-img/my.png) no-repeat 0 0;
+    background-size: cover;
+}
+/* 尾部导航结束 */

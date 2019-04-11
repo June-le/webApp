@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/base.js"></script>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/touch.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/search.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="sea">
+            <input type="text" class="search" placeholder="搜索商品">
+            <span class="sea-icon"></span>
+        </div>
+        <div class="del">
+            <a href="#">取消</a>
+        </div>
+    </div>
+    <div class="search-shop">
+        <div class="search-hot">
+            <p class="search-tit">热门搜索</p>
+            <div class="word-line">
+                <a href="#">天梭力洛克</a>
+                <a href="#">爱宝时</a>
+                <a href="#">浪琴</a>
+                <a href="#">欧米茄</a>
+                <a href="#">赫柏林</a>
+                <a href="#">瑞士迪沃斯</a>
+                <a href="#">莫勒</a>
+                <a href="#">美度</a>
+                <a href="#">阿玛尼</a>
+                <a href="#">劳力士</a>
+            </div>
+        </div>
+        <div class="search-list h">
+
+        </div>
+    </div>
+</body>
+<script src="js/searchAPI.js"></script>
+</html>

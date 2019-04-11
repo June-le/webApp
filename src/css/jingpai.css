@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 100px;
+}
+main img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+main{
+    position: relative;
+    margin-bottom: 1rem;
+}
+/* 头部开始 */
+header{
+    width: 7.5rem;
+    height: .88rem;
+    background: #fff;
+    position: relative;
+}
+header .icon{
+    background:  url(../images/yl-img/xueb.png) no-repeat -.98rem 0;
+    background-size: 2.98rem;
+    width: .88rem;
+    height: .88rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+header .title{
+    text-align: center;
+    font-size: .32rem;
+    color: #333;
+    line-height: .88rem;
+}
+/* 头部结束 */
+
+/* banner图开始 */
+main .W-main{
+    width: 7.5rem;
+    position: relative;
+}
+main .W-main .banner .swiper-container .swiper-wrapper .swiper-slide a{
+    height: 4.4rem;
+    display: block;
+}
+main .W-main .banner .swiper-pagination .swiper-pagination-bullet-active{
+    background: #cc9952;
+}
+/* banner图结束 */
+
+/* 导航开始 */
+main .W-main .nav {
+    width: 7.5rem;
+    z-index: 10;
+    background: #fff;
+}
+main .W-main .hide{
+    position: fixed;
+    top: 0;
+}
+.W-main .nav ul{
+    width: 91.7%;
+    margin: 0 auto;
+    display: flex;
+}
+.W-main .nav ul li{
+    height: .88rem;
+    text-align: center;
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main .W-main .nav ul .on2 i{
+    background: #cc9952!important;
+}
+.W-main .nav ul li .on2{
+    color: #cc9952!important;
+}
+.nav ul .on i{
+    width: .36rem;
+    height: .06rem;
+    background: #333;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -.18rem;
+}
+.W-main .nav ul .on a{
+    font-weight: 700;
+    color: #333;
+}
+.W-main .nav ul li a{
+    font-size: .28rem;
+    padding: 0 .1rem;
+    line-height: .76rem;
+    color: #666;
+    display: inline-block;
+}
+/* 导航结束 */
+
+/* 点击导航tab切换内容开始 */
+main .W-main .content{
+    width: 96%;
+    margin:  0 auto;
+}
+main .W-main .content .tabs-block{
+    display: block;
+    display: flex;
+    flex-wrap:wrap;
+}
+.W-main .content .tabs{
+    display: none;
+    overflow: hidden;
+}
+.content .tabs .W-none{
+    margin: 0 auto;
+}
+.content .tabs .W-none .icon-d-norecord{
+    display: block;
+    background-image: url(../images/yl-img/xb-jp.png);
+    background-position: 0 -1.86rem;
+    background-size: 7.92rem;
+    width: 1.76rem;
+    height: 1.76rem;
+    margin: 1.2rem auto .48rem;
+}
+.content .tabs .W-none p{
+    font-size: .28rem;
+    color: #999;
+    text-align: center;
+    line-height: .32rem;
+}
+.content .tabs .auctionCode{
+    width: 50%;
+    margin-top: .16rem;
+    padding: .16rem .16rem .4rem;
+    box-sizing: border-box;
+    display: block;
+}
+.content .tabs .auctionCode .p1{
+    width: 100%;
+    height: 4.1rem;
+    border-radius: .2rem;
+    overflow: hidden;
+}
+.content .tabs .auctionCode .p1 img{
+    height: 100%;
+    width: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.content .tabs .auctionCode .p2{
+    margin-top: .24rem;
+    padding: 0 .08rem;
+    font-size: .24rem;
+    color: #666;
+    line-height: .3rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.content .tabs .auctionCode .p3{
+    margin-top: .08rem;
+    padding:  0 .08rem;
+    font-size: .28rem;
+    color: #666;
+    line-height: .3rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+}
+.content .tabs .auctionCode .p3 .marketPrice{
+    font-size: .2rem;
+    margin-left: .1rem;
+    color: #999;
+    text-decoration:line-through;
+}
+.content .tabs .auctionCode .p3 .fr{
+    font-size: .24rem;
+    color: #cc9952;
+}
+.content .tabs .auctionCode .p4{
+    color: #fff;
+    font-size: .2rem;
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
+    width: 1rem;
+    margin: .16rem 0 0 .1rem;
+}
+.content .tabs .auctionCode .p4 p{
+    background: #cc3d3d;
+    border-radius:.04rem;
+}
+/* 点击导航tab切换内容结束 */
+
+/* 尾部开始 */
+main .footer{
+    width: 7.5rem;
+    height: .98rem;
+    border-top: .02rem solid #e6e6e6;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    background-color: #fff;
+}
+main .footer .footer-box{
+    width: 80.3%;
+    margin: 0 auto;
+    height: .98rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .footer-box a{
+    width: 24.9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.footer .footer-box a .ico{
+    display: block;
+    background-image: url(../images/yl-img/xb-jp.png);
+    background-position: -3.94rem -6.2rem;
+    background-size: 7.92rem;
+    width: .5rem;
+    height: .5rem;
+}
+.footer .footer-box a .on{
+    color: #cc9952;
+}
+.footer .footer-box a p{
+    font-size: .2rem;
+    text-align: center;
+    color: #666;
+}
+.footer .footer-box a .icon-d-release{
+    position: absolute;
+    top: -.44rem;
+    z-index: 10;
+    left: 50%;
+    margin-left: -.56rem;
+    display: block;
+    background-image: url(../images/yl-img/xb-jp.png);
+    background-position: -5.1rem -3.66rem;
+    background-size: 7.92rem;
+    width: 1.12rem;
+    height: 1.12rem;
+}
+.footer .footer-box a .text{
+    margin-top: .62rem;
+}
+.footer .footer-box a .icon-d-mine01{
+    background-image: url(../images/yl-img/xb-jp.png);
+    background-position: -5.14rem -6.2rem;
+    background-size: 7.92rem;
+    width: .5rem;
+    height: .5rem;
+}
+/* 尾部结束 */

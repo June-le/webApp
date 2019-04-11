@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 100px;
+}
+a{
+    text-decoration: none;
+}
+main img{
+    width: 100%;
+}
+/* 头部开始 */
+main .wrap-1{
+    margin-bottom: .6rem;
+    position: relative;
+}
+main .wrap-1 .wrap-txt{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: .2rem;
+    left: 50%;
+    margin-left: -.66rem;
+}
+main .wrap-1 .wrap-txt .txt1{
+    font-size: .44rem;
+    font-weight: 700;
+    color: #c49a4e;
+    margin: 0 auto;
+}
+main .wrap-1 .wrap-txt .txt2{
+    font-size: .2rem;
+    font-weight: 700;
+    color: #c49a4e;
+    margin: 0 auto;
+}
+main .wrap-1 .wrap-in{
+    position: absolute;
+    top: 7.8rem;
+    width: 100%;
+}
+.wrap-in .num{
+    display: block;
+    width: 68.9%;
+    height: .8rem;
+    line-height: .8rem;
+    text-align: center;
+    color: #000;
+    font-size: .28rem;
+    margin:  0 auto .36rem;
+    border-radius:.1rem;
+    border: none;
+    background-color: #fff;
+}
+.wrap-in .btn{
+    height: .8rem;
+    line-height: .8rem;
+    width: 68.9%;
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(-270deg, #E6B673 0%, #CC9952 100%);
+    border-radius:.1rem;
+    font-size: .28rem;
+    margin: 0 auto;
+}
+/* 头部结束 */
+
+/* 主体内容开始 */
+main .wrap-2{
+    margin-bottom: .7rem;
+}
+main .wrap-2 .title{
+    margin-bottom: .2rem;
+}
+main .wrap-2 .title .title-text{
+    font-size: .6rem;
+    color: #d3ac71;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: .1rem;
+}
+main .wrap-2 .title .title-line{
+    width: .42rem;
+    height: .08rem;
+    background-color: #d3ac71;
+    margin: 0 auto;
+}
+
+main .wrap-2 .txt{
+    width: 6.06rem;
+    margin: 0 auto;
+    margin-bottom: .5rem;
+}
+main .wrap-2 .txt .txt-main{
+    font-size: .28rem;
+    font-weight: 600;
+    color:#515151;
+    line-height: .5rem;
+}
+main .wrap-2 .button .txt-in{
+    margin: 0 auto;
+    margin-top: .8rem;
+    text-align: center;
+    width: 6.7rem;
+    height: .88rem;
+    line-height: .88rem;
+    font-size: .36rem;
+    color: #fff;
+    background-color: #d2a751;
+    border-radius: .1rem;
+}
+/* 主体内容结束 */

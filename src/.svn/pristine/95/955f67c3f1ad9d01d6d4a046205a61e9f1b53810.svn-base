@@ -1,0 +1,20 @@
+// 页面加载发起ajax请求渲染页面限时竞拍
+$(function(){
+    var page = 0;
+    $.ajax({
+        url : '../api/jingpai2.php',
+        type : 'GET',
+        data : {
+            page : page
+        },
+        dataType: 'json',
+        success :function (data){
+            var template = $("#list").html();
+            var html = ejs.render(template,{
+                data : data
+            });
+            $(".content").append(html);
+        }
+    })
+})
+// 页面加载发起ajax请求渲染页面限时竞拍

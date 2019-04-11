@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/big-Forum.css">
+</head>
+
+<body>
+    <main>
+        <div class="big-Forum">
+            <!-- 点击返回咨询首页 -->
+            <a href="ybsjIndex.html" class="return">
+                <img src="images/yl-img/left.png" alt="">
+            </a>
+            <!-- 点击返回咨询首页 -->
+
+            <!-- 头部开始 -->
+            <div class="title">
+                <div class="title-a">大讲堂</div>
+                <div class="title-b">专业、系统的手表知识和文化</div>
+                <div class="title-c"></div>
+            </div>
+            <!-- 头部结束 -->
+
+            <!-- 课堂开始 -->
+            <div class="content">
+                <a href="#">
+                    <div class="img">
+                        <img src="images/yl-img/Lecture-hall.jpg" alt="">
+                        <div class="tag">第13堂课</div>
+                    </div>
+                    <div class="txt">4万元卡地亚表带一年就断？聊聊表带该如何保养</div>
+                </a>
+                <a href="#">
+                    <div class="img">
+                        <img src="images/yl-img/PAGET.jpg" alt="">
+                        <div class="tag">第12堂课</div>
+                    </div>
+                    <div class="txt">伯爵表品牌故事</div>
+                </a>
+                <a href="#">
+                    <div class="img">
+                        <img src="images/yl-img/HX.jpg" alt="">
+                        <div class="tag">第11堂课</div>
+                    </div>
+                    <div class="txt">学会审视手表的核心——微调装置</div>
+                </a>
+                <a href="#">
+                    <div class="img">
+                        <img src="images/yl-img/WATER.jpg" alt="">
+                        <div class="tag">第10堂课</div>
+                    </div>
+                    <div class="txt">深度剖析潜水表：潜水表的常见问题</div>
+                </a>
+                <a href="#">
+                    <div class="img">
+                        <img src="images/yl-img/PATEK.jpg" alt="">
+                        <div class="tag">第09堂课</div>
+                    </div>
+                    <div class="txt">三问之音，聆听时间的哲学</div>
+                </a>
+                <a href="#">
+                    <div class="img">
+                        <img src="images/yl-img/PLANCPAIN.jpg" alt="">
+                        <div class="tag">第08堂课</div>
+                    </div>
+                    <div class="txt">买表七大误区 你一定要知道</div>
+                </a>
+                <a href="#">
+                    <div class="img">
+                        <img src="images/yl-img/HX.jpg" alt="">
+                        <div class="tag">第07堂课</div>
+                    </div>
+                    <div class="txt">王向明|我当年学习钟表技术的经历</div>
+                </a>
+                <a href="#">
+                    <div class="img">
+                        <img src="images/yl-img/YINQ.jpg" alt="">
+                        <div class="tag">第06堂课</div>
+                    </div>
+                    <div class="txt">依百克八日链，替手表加装V8引擎!</div>
+                </a>
+            </div>
+            <!-- 课堂结束 -->
+        </div>
+    </main>
+
+    <script src="js/base.js"></script>
+</body>
+
+</html>

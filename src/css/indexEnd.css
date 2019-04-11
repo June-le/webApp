@@ -1,0 +1,110 @@
+html{
+    font-size: 100px;
+}
+
+/* 本月爆款 */
+.faddish{
+    width: 7.5rem;
+}
+.faddish .title{
+    margin: .32rem 0 .28rem 0;
+}
+.faddish .title .title-text {
+    font-size: .32rem;
+    color: #333;
+    line-height: .32rem;
+    text-align: center;
+    margin-bottom: .32rem;
+    font-weight: 700;
+}
+.faddish .title .title-line {
+    width: .48rem;
+    height: .02rem;
+    background: #ccaa7a;
+    margin: 0 auto;
+}
+.faddish .content{
+    width: 7.5rem;
+    height: 3.6rem;
+    margin: 0;
+}
+.faddish .content img{
+    width: 100%;
+}
+/* 本月爆款End */
+
+
+/* 底部 */
+.W_footer {
+    width: 7.5rem;
+    background: #fff;
+    height: .98rem;
+    border-top: .02rem solid #f1f1f1;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+}
+
+.W_footer a {
+    position: relative;
+    width: .8rem;
+    padding-top: .1rem;
+    color: #666;
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.W_footer .iconfont {
+    font-size: .45rem;
+    color: #333;
+}
+.W_footer .icon-fangzi{
+    font-size: .55rem;
+    margin-bottom: -.1rem;
+
+}
+.W_footer .W_footer_title{
+    position: absolute;
+    /* left: .3rem; */
+    bottom: .05rem;
+    font-size: .24rem;
+}
+.W_footer .icon-zhinanzhen1{
+    font-size: .55rem;
+    margin-bottom: -.1rem;
+
+}
+.W_footer .icon-icon--{
+    margin-top: .1rem;
+    border: .02rem solid #000;
+    width: .4rem;
+    height: 0.4rem;
+    font-size: .35rem;
+    color: #333;
+}
+.W_footer .icon-wode{
+    margin-left: -.05rem;
+}
+.W_ntalk{
+    position: fixed;
+    right: .1rem;
+    bottom: 1.4rem;
+    width: .7rem;
+    height: .7rem;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items : center;
+    display: none;
+}
+.W_ntalk i{
+    font-size: .4rem;
+}
+.index_classify .iconBac{
+    color: #fff;
+    background: #333;
+}

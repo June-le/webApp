@@ -1,0 +1,19 @@
+$(function(){
+    //搜索框
+    $('.search').focus(function(){
+        window.location.href="search.html"
+    })
+    //轮播图
+    var mySwiper = new Swiper('.lunbo1', {
+        autoplay: true, //可选选项，自动滑动
+        loop: true, // 循环模式选项
+
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        }
+    })
+
+
+
+})

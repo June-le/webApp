@@ -1,0 +1,220 @@
+var detailJS = {
+    setHeight: function () {
+        var leftHeight = $(window).height() - $(".headOut").height() - $(".footOuter").height();
+        // $(".W_detail").height(leftHeight);
+        // console.log(leftHeight);
+        // var myScroll = new IScroll('.W_detail');
+
+    },
+    headTabs: function () {
+        var flag = true;
+        var ajaxFun = this.sendAjax;
+        headSwiper = new Swiper("#tabs-container", {
+            paginationClickable: !0,
+            observer: !0,
+            observeParents: !0,
+            autoHeight: !0,
+            noSwiping: !0,
+            noSwipingClass: "stop-swiping",
+            speed: 500,
+            on: {
+                slideChangeTransitionStart: function () {
+                    $(".tabs .on").removeClass("on"),
+                        $(".tabs a").eq(this.activeIndex).addClass("on")
+                },
+                slideChangeTransitionEnd: function(){
+                    console.log("end")
+                    $("html,body").scrollTop(0);
+                    if($(".W_title .wb_goods_tab a").eq(2).hasClass("on") ){
+                        console.log("youle")
+                        if (flag) {
+                            flag = false;
+                            console.log("该法ajax3333333了")
+                            ajaxFun("#evaluate_total_content");
+                        }
+                    }
+                },
+            },
+            observeSlideChildren: true
+        });
+        $(".tabs a").on("click", function (i) {
+            i.preventDefault(),
+                $(".tabs .on").removeClass("on"),
+                $(this).addClass("on"),
+                headSwiper.slideTo($(this).parent().index())
+        })
+    },
+    swipers: function () {
+        new Swiper(".swiper-container-carousel", {
+            visibilityFullFit: !0,
+            loop: !0,      
+            lazy: true,
+            pagination: {
+                el: ".pr_carousel .swiper-pagination"
+            }
+        })
+    },
+    detailsTab: function () {
+  
+        $(".details .W_gnTab_nav ul").on("click", "li", function () {
+            $(this).addClass("on").siblings().removeClass("on");
+            $("#details_content").find(".gnTabs_block").eq($(this).index()).show().siblings().hide();
+        })
+    },
+    storeTab: function () {
+        $(".store .store-content li").last().addClass("h");
+        $(".store-title").on("click", "li", function () {
+            $(this).addClass("on").siblings().removeClass("on");
+            $(".store-content").find("li").eq($(this).index()).removeClass("h").siblings().addClass("h");
+        })
+    },
+    evaluateTab: function () {
+        $(".evaluate .W_gnTab_nav ul").on("click", "li", function () {
+            $(this).addClass("on").siblings().removeClass("on");
+            $("#evaluate_content").find(".gnTabs_block").eq($(this).index()).removeClass("h").siblings().addClass("h");
+        })
+    },
+    evaluateMock: function () {
+        var ajaxFun = this.sendAjax;
+        var flag = true;
+        // var vip=["金卡会员","银卡会员","钻石会员"];
+        var img = [0, "images/detail/evaluate-head-01 (1).jpg", "images/detail/evaluate-head-01 (3).jpg", "images/detail/evaluate-head-01 (2).jpg", "images/detail/evaluate-head-01 (4).jpg", "images/detail/evaluate-head-01 (5).jpg"];
+        var txt = ["万表买的第二块表，都不错，除了厚一点", "好看，走时准，一天大概快两三。", "说实话第一眼看到给我的感觉很有档次，做工没的说，至于其他的等我用过一段时间后在做评价"];
+        Mock.mock("http://evaluate.com", {
+            err: 0,
+            "list|8": [{
+                'head|1': img,
+                'name': /^\w{2}[*]{4}\w{2}$/,
+                'vip|0-2': 1,
+                'wuxing|1-5': 1,
+                'txt|1': txt,
+                'img': function () {
+                    var ran1, ran2, arr = [];
+                    ran2 = Math.floor(Math.random() * 7);
+                    for (var i = 0; i < ran2; i++) {
+                        ran1 = Math.floor(Math.random() * 17);
+                        arr.push("images/detail/evaluateMock-01 (" + ran1 + ").jpg")
+                    }
+                    return arr;
+                },
+                // 'date':"2018-09-12 12:11:49",
+                date: Mock.Random.datetime(),
+                'style|0-1': "真皮 白色 牛皮",
+                'imgNum': "共3张图",
+            }]
+        });
+
+        // $(".W_title .wb_goods_tab a").eq(2).click(function () {
+        //     if (flag) {
+        //         flag = false;
+        //         ajaxFun("#evaluate_total_content");
+        //     }
+        // });
+        $(".W_gnTab_content .detail_more").on("click", function () {
+            ajaxFun("#evaluate_total_content");
+        })
+    },
+    productEval: function () {
+        this.sendAjax(".pr_evaluate .evaluate_content", "single", "headtab");
+    },
+    sendAjax: function (target, n, h) {
+        var tempheadTabs = this.headTabs;
+        $.ajax({
+            url: 'http://evaluate.com',
+            dataType: 'json',
+            success: function (data) {
+                if (n == "single") {
+                    var temp = [];
+                    temp.push(data.list[0]);
+                    data.list = temp;
+                }
+                var html;
+                html = "";
+                html += ejs.render(document.getElementById('evaluateMock').innerHTML, { evaluate: data });
+                html += $(target).html();
+                $(target).html(html);
+                if (h) {
+                    tempheadTabs.call(detailJS);
+                };
+                headSwiper.update();
+            }
+        })
+    },
+    eject: function (e, t, o) {
+        $(e).on("click", function () {
+            $(o).fadeIn(),
+                $(".tc_content").addClass("tc_bottom"),
+                $("body").css({
+                    overflow: "hidden"
+                })
+        }),
+            $(t).on("click", function () {
+                $(o).fadeOut(),
+                    $(".tc_content").removeClass("tc_bottom"),
+                    $("body").css({
+                        overflow: "auto"
+                    })
+            })
+    }
+    ,
+    ejectAll: function () {
+        var eject = this.eject;
+        eject(".coupons_stages", ".tc_button_b,.tc_bg", ".tc_container_fq"),
+            eject(".coupons_voucher", ".tc_button_b,.tc_bg", ".tc_container_juan"),
+            eject(".coupons_promotion", ".tc_button_b,.tc_bg", ".tc_container_cx"),
+            eject(".flaw", ".tc_button_b,.tc_bg", ".tc_container_xc"),
+            eject(".ys_content", ".tc_button_b,.tc_bg", ".tc_container_ys"),
+            eject(".pr_coice", ".choice_content-a_ico,.tc_bg", ".tc_container_choice"),
+            eject(".js_share", ".fx_button,.tc_bg", ".tc_container_fx"),
+            eject(".combination_ico", ".js_combination,.tc_bg", ".tc_container_zh"),
+            eject(".W_combination .more", ".purchase_title,.icon-a-close03,.tc_bg", ".tc_container_rq"),
+            eject("#brand", ".tc_container_brand .button,.tc_container_brand .brandPopup .title i,.tc_bg", ".tc_container_brand"),
+            eject(".rareClick", ".tc_container_rare .tc_bg,.tc_container_rare .tc_button_b", ".tc_container_rare")
+        $(".choice_content_b_content").find("span").on("click", function () {
+            $(this).addClass("colour").siblings().removeClass("colour")
+        })
+    },
+    add: function () {
+        var e, t = $("#count"), o = Number(t.attr("data-realCount")) + Number(t.attr("data-virtualCount"));
+        $(".choice_content_b_num_b").find("span").on("click", function () {
+            var a = $(this);
+            if (e = Math.floor(t.val()),
+                "add" == a.attr("data-type")) {
+                if (5 === Number(a.attr("data-saleType")))
+                    return 0,
+                        !1;
+                e >= o ? (
+                    t.val(o)) : (t.val(++e),
+                        a.siblings("span").removeClass("boder_colour"))
+            } else
+                e > 1 && (2 == e && a.addClass("boder_colour"),
+                    t.val(--e))
+        })
+    },
+    heart: function () {
+        $(".detail_footer_ico3").on("click", function () {
+            // 判断是否登录
+            function isLogin() {
+                if (getCookie("user")) {
+                    $(".header_top .wrap_right .wrap_right_login a").eq(0).html("欢迎<a href='collection.php'>" + getCookie("user") + "</a><a class='del cook'>退出</a>");
+                } else {
+                    $(".header_top .wrap_right .wrap_right_login a").eq(0).html("<a href='Login.html'>请登录</a>");
+                }
+            }
+        })
+    },
+    
+    init: function () {
+        this.swipers(),
+            this.detailsTab(),
+            this.storeTab(),
+            this.evaluateTab(),
+            this.evaluateMock(),
+            this.productEval(),
+            this.setHeight(),
+            this.ejectAll(),
+            this.add(),
+            this.heart()
+    },
+};
+detailJS.init();

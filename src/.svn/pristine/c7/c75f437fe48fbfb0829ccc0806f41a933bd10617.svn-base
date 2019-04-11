@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/shouye.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+</head>
+
+<body>
+    <!-- 详情小版块开始 -->
+    <div class="channel-nine">
+        <!-- 品牌的头部开始 -->
+        <div class="title">
+            <p class="title-text">品牌</p>
+            <p class="title-line"></p>
+        </div>
+        <!-- 品牌的头部结束 -->
+
+        <!-- 品牌的轮播图开始 -->
+        <div class="content">
+            <div class="swiper-container Banner">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide banner">
+                        <img src="images/yl-img/oris.jpg" alt="">
+                    </a>
+                    <a href="#" class="swiper-slide banner">
+                        <img src="images/yl-img/zenith.jpg" alt="">
+                    </a>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <!-- 品牌的轮播图结束 -->
+    </div>
+    <!-- 详情小版块结束 -->
+
+    <!-- 品牌下面的店铺开始 -->
+    <div class="channel-eight">
+        <div class="content">
+            <a href="#" class="img">
+                <img src="images/yl-img/EPOS.jpg" alt="">
+            </a>
+            <a href="#" class="img">
+                <img src="images/yl-img/OPIENT-STAR.jpg" alt="">
+            </a>
+            <a href="#" class="img">
+                <img src="images/yl-img/LONGINES.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="channel-eight">
+        <div class="content">
+            <a href="#" class="img">
+                <img src="images/yl-img/GARMIN.jpg" alt="">
+            </a>
+            <a href="#" class="img">
+                <img src="images/yl-img/MICHEL-HERBELIN.jpg" alt="">
+            </a>
+            <a href="#" class="img">
+                <img src="images/yl-img/MUEHLE.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="channel-eight">
+        <div class="content">
+            <a href="#" class="img">
+                <img src="images/yl-img/SEIKO.jpg" alt="">
+            </a>
+            <a href="#" class="img">
+                <img src="images/yl-img/CUERVO.jpg" alt="">
+            </a>
+            <a href="#" class="img">
+                <img src="images/yl-img/DAVOSA.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <!-- 品牌下面的店铺结束 -->
+
+    <!-- 本月爆款开始 -->
+    <div class="channel-three">
+        <div class="title">
+            <p class="title-text">人气爆款</p>
+            <p class="title-line"></p>
+        </div>
+        <div class="content">
+            <a href="#">
+                <img src="images/yl-img/PERLES.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="channel-three">
+        <div class="content">
+            <a href="#">
+                <img src="images/yl-img/DAVOSA-LJL.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="channel-three">
+        <div class="content">
+            <a href="#">
+                <img src="images/yl-img/EPOS-SATRT.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="channel-three bom">
+        <div class="content">
+            <a href="#">
+                <img src="images/yl-img/EPOS-WHITE.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <!-- 本月爆款结束 -->
+
+    <!-- 闪购开始 -->
+    <div class="channel-nine">
+        <!-- 闪购的头部开始 -->
+        <div class="title">
+            <p class="title-text">闪购</p>
+            <p class="title-line"></p>
+        </div>
+        <!-- 闪购的头部结束 -->
+
+        <!-- 闪购的轮播图开始 -->
+        <div class="content">
+            <div class="swiper-container Banner">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide banner">
+                        <img src="images/yl-img/shangoing.jpg" alt="">
+                    </a>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <!-- 闪购的轮播图结束 -->
+    </div>
+    <!-- 闪购结束 -->
+
+    <!-- 闪购下面的打折店铺开始 -->
+    <div class="channel-ten">
+        <div class="content">
+            <div class="swiper-container shop">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide shop-img">
+                        <img src="images/yl-img/yls.jpg" alt="">
+                    </a>
+                    <a href="#" class="swiper-slide shop-img">
+                        <img src="images/yl-img/mh.jpg" alt="">
+                    </a>
+                    <a href="#" class="swiper-slide shop-img">
+                        <img src="images/yl-img/tisso.jpg" alt="">
+                    </a>
+                    <a href="#" class="swiper-slide shop-img">
+                        <img src="images/yl-img/lmw.jpg" alt="">
+                    </a>
+                    <a href="#" class="swiper-slide shop-img">
+                        <img src="images/yl-img/hbl.jpg" alt="">
+                    </a>
+                    <a href="#" class="swiper-slide shop-img">
+                        <img src="images/yl-img/Haio.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 闪购下面的打折店铺结束 -->
+
+    <!-- 男士开始 -->
+    <div class="channel-nine">
+        <!-- 男士的头部开始 -->
+        <div class="title">
+            <p class="title-text">男士</p>
+            <p class="title-line"></p>
+        </div>
+        <!-- 男士的头部结束 -->
+
+        <!-- 男士的轮播图开始 -->
+        <div class="content">
+            <div class="swiper-container Banner">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide banner">
+                        <img src="images/yl-img/man.jpg" alt="">
+                    </a>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <!-- 男士的轮播图结束 -->
+    </div>
+    <!-- 男士结束 -->
+
+    <!-- 男士下面的打折店铺开始 -->
+    <div class="channel-ten">
+        <div class="content">
+            <div class="swiper-container shop">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide shop-img">
+                        <img src="images/yl-img/LONGINES-kas.jpg" alt="">
+                    </a>
+                    <a href="#" class="swiper-slide shop-img">
+                        <img src="images/yl-img/EPOS-YS.jpg" alt="">
+                    </a>
+                    <a href="#" class="swiper-slide shop-img">
+                        <img src="images/yl-img/DF-START.jpg" alt="">
+                    </a>
+                    <a href="#" class="swiper-slide shop-img">
+                        <img src="images/yl-img/TISSOT-LLK.jpg" alt="">
+                    </a>
+                    <a href="#" class="swiper-slide shop-img">
+                        <img src="images/yl-img/KEW-CYS.jpg" alt="">
+                    </a>
+                    <a href="#" class="swiper-slide shop-img">
+                        <img src="images/yl-img/OMG-DF.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 男士下面的打折店铺结束 -->
+
+    <!-- 潮人开始 -->
+    <div class="channel-nine">
+        <!-- 潮人的头部开始 -->
+        <div class="title">
+            <p class="title-text">潮人</p>
+            <p class="title-line"></p>
+        </div>
+        <!-- 潮人的头部结束 -->
+
+        <!-- 潮人的轮播图开始 -->
+        <div class="content">
+            <div class="swiper-container Banner">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide banner">
+                        <img src="images/yl-img/trend.jpg" alt="">
+                    </a>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <!-- 潮人的轮播图结束 -->
+    </div>
+    <!-- 潮人结束 -->
+
+    <!-- 潮人下面的打折店铺开始 -->
+    <div class="channel-ten">
+        <div class="content">
+            <div class="swiper-container shop">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide shop-img">
+                        <img src="images/yl-img/shlsq.jpg" alt="">
+                    </a>
+                    <a href="#" class="swiper-slide shop-img">
+                        <img src="images/yl-img/dlrb.jpg" alt="">
+                    </a>
+                    <a href="#" class="swiper-slide shop-img">
+                        <img src="images/yl-img/CIGA-Design.jpg" alt="">
+                    </a>
+                    <a href="#" class="swiper-slide shop-img">
+                        <img src="images/yl-img/SEIKO-Prospex.jpg" alt="">
+                    </a>
+                    <a href="#" class="swiper-slide shop-img">
+                        <img src="images/yl-img/Anna-Veith.jpg" alt="">
+                    </a>
+                    <a href="#" class="swiper-slide shop-img">
+                        <img src="images/yl-img/EONE-COOLMA.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 潮人下面的打折店铺结束 -->
+
+    <!-- 女士开始 -->
+    <div class="channel-nine">
+        <!-- 女士的头部开始 -->
+        <div class="title">
+            <p class="title-text">女士</p>
+            <p class="title-line"></p>
+        </div>
+        <!-- 女士的头部结束 -->
+
+        <!-- 女士的轮播图开始 -->
+        <div class="content">
+            <div class="swiper-container Banner">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide banner">
+                        <img src="images/yl-img/lady.jpg" alt="">
+                    </a>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <!-- 女士的轮播图结束 -->
+    </div>
+    <!-- 女士结束 -->
+
+    <!-- 女士下面的打折店铺开始 -->
+    <div class="channel-ten">
+        <div class="content">
+            <div class="swiper-container shop">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide shop-img">
+                        <img src="images/yl-img/Longines-xy.jpg" alt="">
+                    </a>
+                    <a href="#" class="swiper-slide shop-img">
+                        <img src="images/yl-img/Century.jpg" alt="">
+                    </a>
+                    <a href="#" class="swiper-slide shop-img">
+                        <img src="images/yl-img/HBL-Perles.jpg" alt="">
+                    </a>
+                    <a href="#" class="swiper-slide shop-img">
+                        <img src="images/yl-img/HBL-City.jpg" alt="">
+                    </a>
+                    <a href="#" class="swiper-slide shop-img">
+                        <img src="images/yl-img/JJ-YUEH.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 女士下面的打折店铺结束 -->
+
+    <!-- 尊享服务开始 -->
+    <div class="channel-three">
+        <div class="title">
+            <p class="title-text">尊享服务</p>
+            <p class="title-line"></p>
+        </div>
+        <div class="content">
+            <a href="#">
+                <img src="images/yl-img/MJWX.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="channel-three">
+        <div class="content">
+            <a href="#">
+                <img src="images/yl-img/ZXJP.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="channel-three">
+        <div class="content">
+            <a href="#">
+                <img src="images/yl-img/WBDR.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="channel-three bom">
+        <div class="content">
+            <a href="#">
+                <img src="images/yl-img/XXTY.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <!-- 尊享服务结束 -->
+
+
+    <script src="js/base.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script>
+        window.onload = function () {
+            // 轮播图
+            var bannerSwiper = new Swiper('.Banner', {
+                autoplay: true, //可选选项，自动滑动
+                loop: true, // 循环模式选项
+                // 如果需要分页器
+                pagination: {
+                    el: '.swiper-pagination',
+                }
+            })
+            // 自动排版左右拖动
+            var shopSwiper = new Swiper('.shop', {
+                slidesPerView: 'auto',
+                centeredSlides: false,
+            })
+        }
+    </script>
+</body>
+
+</html>

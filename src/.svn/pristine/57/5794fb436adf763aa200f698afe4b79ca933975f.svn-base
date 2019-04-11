@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/brandstore.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+</head>
+
+<body>
+    <section class="storeInformation">
+        <header class="header">
+            <a class="header_a">
+                <i class="iconfont icon-jiantou4"></i>
+            </a>
+            <a class="header_b">
+                <i class="iconfont icon-ai219"></i>
+                <span>搜索店内商品</span>
+            </a>
+            <a class="header_c"></a>
+            <a class="header_d"></a>
+        </header>
+    </section>
+</body>
+<script src="../js/common.js"></script>
+</html>

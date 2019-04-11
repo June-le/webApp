@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 100px;
+}
+.prolist{
+    background-color: pink;
+}
+.prolist .header{
+    width: 7.5rem;
+    height: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items : center;
+}
+.prolist .header .header_a{
+    width: 0.88rem;
+    height: 0.88rem;
+    text-align: center;
+    line-height: .88rem;
+}
+.prolist .header .header_a i{
+    color: #888;
+    font-size: .4rem;
+}
+
+.prolist .header .header_b{
+    position: relative;
+    background: #f1f1f1;
+    width: 4.84rem;
+    height: .52rem;
+    color: #999;
+    border-radius: .26rem;
+}
+.prolist .header .header_b span{
+    position: absolute;
+    left: .7rem;
+    line-height: .52rem;
+}
+.prolist .header .header_b i{
+    position: absolute;
+    top: .1rem;
+    left: .2rem;
+    font-size: .35rem;
+    
+}
+.prolist .header_d {
+    display: block;
+    background-image: url(../images/photo/d.png);
+    background-position: -2.94rem -3.73rem;
+    background-size: 8.57rem;
+    width: .88rem;
+    height: .88rem;
+}
+.p-banner .banner_a {
+    display: block;
+    background-image: url(../images/photo/a.png);
+    background-position: -2rem -6.98rem;
+    background-size: 8.86rem;
+    width: .28rem;
+    height: .28rem;
+}

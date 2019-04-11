@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 100px;
+    
+}
+.pinpai .trend{
+    margin: 16px 0 14px 0;
+}
+.pinpai .trend .trend-text{
+    font-size: .32rem;
+    color: #333;
+    line-height: .32rem;
+    text-align: center;
+    margin-bottom: .24rem;
+    font-weight: 700;
+}
+.pinpai .trend .trend-line{
+    width: .48rem;
+    height: .04rem;
+    background: #ccaa7a;
+    margin: 0 auto;
+}
+/* 品牌banner图开始 */
+.pinpai .pinpai-banner{
+    width: 7.5rem;
+}
+.pinpai .pinpai-banner .banner .banner0 img{
+    width: 7.5rem;
+    height: 5rem;
+}
+.pinpai .pinpai-banner .swiper-pagination-bullet{
+    width: .4rem;
+    background-color: #ccaa7a;
+    border-radius: .1rem;
+}
+/* 品牌banner图结束 */
+
+/* 品牌banner商品开始 */
+.pinpai-bom{
+    width: 7.5rem;
+}
+.pinpai-bom a{
+    height: 1.36rem;
+    float: left;
+}
+.pinpai-bom img{
+    width: 2.5rem;
+}
+
+
+/* 潮人banner商品开始 */
+.shangou-bom{
+    width: 7.5rem;
+}
+.shangou-bom .shangou-bom-banner{
+    margin: 20px 0 0 8px;
+}
+.shangou-bom .shangou-bom-banner .tdt .tdt-img{
+    width: 3.1rem;
+    height: 4.1rem;
+}
+.shangou-bom .shangou-bom-banner .tdt .tdt-img:nth-child(1){
+    background: url(../photo/shangou1.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+.shangou-bom .shangou-bom-banner .tdt .tdt-img:nth-child(2){
+    background: url(../photo/shangou2.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+.shangou-bom .shangou-bom-banner .tdt .tdt-img:nth-child(3){
+    background: url(../photo/shangou3.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+.shangou-bom .shangou-bom-banner .tdt .tdt-img:nth-child(4){
+    background: url(../photo/shangou4.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+.shangou-bom .shangou-bom-banner .tdt .tdt-img:nth-child(5){
+    background: url(../photo/shangou5.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+.shangou-bom .shangou-bom-banner .tdt .tdt-img:nth-child(6){
+    background: url(../photo/shangou6.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+/* 潮人banner商品结束 */

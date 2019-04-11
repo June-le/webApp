@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/base.js"></script>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/touch.js"></script>
+    <link rel="stylesheet" href="css/mingjiang-wo.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+
+<body>
+    <header>
+        <a href="#"></a>
+    </header>
+    <main>
+        <div class="W_main">
+            <div class="user_header">
+                <a class="user_info" href="#">
+                    <div class="avatar"> <i class="icon-d-touxiang"></i> </div>
+                    <p class="user_name">登录／注册</p>
+                    <p class="user_sign">登录领大礼包</p>
+                </a>
+                <div class="user_own">
+                    <ul class="own_list">
+                        <li class="own_item">
+                            <a href="#">
+                                <p>0</p>
+                                <p>服务卡</p>
+                            </a>
+                        </li>
+                        <li class="own_item">
+                            <a href="#">
+                                <p>0</p>
+                                <p>优惠券</p>
+                            </a>
+                        </li>
+                        <li class="own_item">
+                            <a href="#">
+                                <p>0</p>
+                                <p>手表管家</p>
+                            </a>
+                        </li>
+                        <li class="own_item">
+                            <a href="#">
+                                <p>0</p>
+                                <p>关注店铺</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="user_order">
+                <div class="order_top">
+                    维修订单
+                    <a href="#">
+                        全部订单
+                        <i class="icon-d-arrow01"></i>
+                    </a>
+                </div>
+                <div class="order_content">
+                    <a href="#">
+                        <i class="icon-d-jc"></i>
+                        <p>待寄出</p>
+                    </a>
+                    <a href="#">
+                        <i class="icon-d-qr"></i>
+                        <p>待确认</p>
+                    </a>
+                    <a href="#">
+                        <i class="icon-d-fk"></i>
+                        <p>待付款</p>
+                    </a>
+                    <a href="#">
+                        <i class="icon-d-zt"></i>
+                        <p>待自提</p>
+                    </a>
+                </div>
+            </div>
+            <div class="user_order">
+                <div class="order_top">
+                    商品订单
+                    <a href="#">全部订单<i class="icon-d-arrow01"></i></a>
+                </div>
+                <div class="order_content">
+                    <a href="#"><i class="icon-d-fk01"></i>
+                        <p>待付款</p>
+                    </a>
+                    <a href="#"><i class="icon-d-fh01"></i>
+                        <p>待发货</p>
+                    </a>
+                    <a href="#"><i class="icon-d-sh01"></i>
+                        <p>待收货</p>
+                    </a>
+                    <a href="#"><i class="icon-d-pj01"></i>
+                        <p>待评价</p>
+                    </a>
+                </div>
+            </div>
+            <div class="user_order">
+                <div class="order_top"> 其他服务</div>
+                <div class="order_content">
+                    <a href="#"><i class="icon-d-hs"></i>
+                        <p>手表回收</p>
+                    </a>
+                    <a href="#"><i class="icon-d-jp"></i>
+                        <p>在线竞拍</p>
+                    </a>
+                    <a href="#"><i class="icon-d-jd"></i>
+                        <p>手表鉴定</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="W_footer">
+            <a class="index_home" href="mingjiang-index.html">
+                <div class="W_footer_img icon-d-home-none"></div>
+                <div class="W_footer_title">首页</div>
+            </a>
+            <a class="index_shop" href="mingjiang-dianpu.html">
+                <div class="W_footer_img icon-d-shop-none"></div>
+                <div class="W_footer_title">店铺</div>
+            </a>
+            <a class="LOGIN" href="javascript:void(0);">
+                <div class="W_footer_img icon-d-service"></div>
+                <div class="W_footer_title services">申请维修</div>
+            </a>
+            <a class="index_member" href="mingjiang-find.html">
+                <div class="W_footer_img icon-d-find-none"></div>
+                <div class="W_footer_title">发现</div>
+            </a>
+            <a class="index_member  on" href="mingjiang-wo.html">
+                <div class="W_footer_img icon-d-mine-none"></div>
+                <div class="W_footer_title">我的</div>
+            </a>
+        </div>
+    </footer>
+</body>
+<script src="js/mingjiang-wo.js"></script>
+
+</html>

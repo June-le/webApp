@@ -1,0 +1,194 @@
+$width:7.5rem;
+$height:.88rem;
+$flex:flex;
+$block:block;
+header{
+    width: $width;
+    height: $height;
+    display: $flex;
+}
+header .fd-back{
+    width: $height;
+    height: $height;
+    line-height: $height;
+    color: #444;
+}
+header .fd-back a{
+    display: block;
+    background-image: url(../images/a.png);
+    background-position: -1.96rem -3.06rem;
+    background-size: 4.22rem;
+    width: $height;
+    height: $height;
+}
+header .fd-name{
+    width: 6rem;
+    height: 100%;
+    text-align: center;
+    line-height: $height;
+    font-size: .32rem;
+    padding-left: -.62rem;
+    color: #444;
+}
+main{
+    width: $width;
+}
+main {
+    .main-box{
+        width: 93.6%;
+        margin: .4rem auto;
+    }
+}
+$hidden:hidden;
+figure{
+    margin-bottom: .48rem;
+    border: .02rem solid #ededed;
+    border-radius: .16rem;
+    overflow: $hidden;
+}
+figure .main-img{
+    height: 4.12rem;
+    overflow: $hidden;
+}
+figure .main-img img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+figure .main-txt{
+    margin-top: .44rem;
+}
+figure .main-txt span {
+    display: block;
+    padding-left: .48rem;
+}
+figure .main-txt span.sp1 {
+    font-size: .4rem;
+    color: #333;
+    line-height: .48rem;
+}
+$top:top;
+figure .main-txt span.sp2 {
+    margin-#{$top}: .2rem;
+    font-size: .24rem;
+    color: #666;
+    line-height: .24rem;
+    padding-bottom: .64rem;
+}
+.elps1 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.W_footer {
+    width: 7.5rem;
+    height: .98rem;
+    border-top: .02rem solid #f1f1f1;
+    position: fixed;
+    bottom: 0;
+    z-index: 997;
+    background: #fff;
+    display: flex;
+}
+.W_footer .on {
+    color: #333;
+}
+.W_footer{
+    a {
+        width: 20%;
+        padding-top: .1rem;
+        color: #666;
+        position: relative;
+        display: block;
+    }
+} 
+.W_footer>.on>.icon-d-home-none {
+    display: block;
+    width: .44rem;
+    height: .44rem;
+    background: url(../images/icon-d-home-on.png) no-repeat;
+    background-size: contain;
+}
+.W_footer a>.W_footer_img {
+    margin: 0 auto;
+    margin-bottom: .06rem;
+}
+.icon-d-home-none {
+    display: block;
+    background-image: url(../images/d.png);
+    background-position: -4.02rem -8.05rem;
+    background-size:9.26rem;
+    width: .44rem;
+    height: .44rem;
+}
+.W_footer a>.W_footer_title {
+    width: 80%;
+    margin: .12rem auto 0;
+    font-size: .2rem;
+    line-height: .28rem;
+    text-align: center;
+    color: #999;
+}
+.W_footer>.on>.icon-d-shop-none {
+    display: block;
+    width: .44rem;
+    height: .44rem;
+    background: url(../images/icon-d-shop-on.png) no-repeat;
+    background-size: contain;
+}
+.icon-d-shop-none {
+    display: block;
+    background-image: url(../images/d.png);
+    background-position: -3.48rem -8.05rem;
+    background-size:9.26rem;
+    width: .44rem;
+    height: .44rem;
+}
+.W_footer a>.W_footer_img.icon-d-service {
+    margin-top: -.5rem;
+}
+.icon-d-service {
+    display: block;
+    background-image: url(../images/d.png);
+    background-position: -6.54rem 0;
+    background-size:9.26rem;
+    width: 1rem;
+    height: 1rem;
+}
+.W_footer a>.W_footer_title.services {
+    margin: .08rem auto 0;
+}
+.W_footer>.on>.icon-d-find-none {
+    display: block;
+    width: .44rem;
+    height: .44rem;
+    background: url(../images/icon-d-find-on.png) no-repeat;
+    background-size: contain;
+}
+.icon-d-find-none {
+    display: block;
+    background-image: url(../images/d.png);
+    background-position: -5.1rem -8.05rem;
+    background-size:9.26rem;
+    width: .44rem;
+    height: .44rem;
+}
+.W_footer>.on>.icon-d-mine-none {
+    display: block;
+    width: .44rem;
+    height: .44rem;
+    background: url(../images/icon-d-mine-on.png) no-repeat;
+    background-size: contain;
+}
+.icon-d-mine-none {
+    display: block;
+    background-image: url(../images/d.png);
+    background-position: -8.62rem -7.48rem;
+    background-size:9.26rem;
+    width: .44rem;
+    height: .44rem;
+}

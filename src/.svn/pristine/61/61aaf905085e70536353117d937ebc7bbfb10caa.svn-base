@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/base.js"></script>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/touch.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/mingjiang-index.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="add">
+            <a href="#">
+                <i class="icon-d-position"></i>
+                <span>未知</span>
+                <i class="icon-d-home_arrow"></i>
+            </a>
+        </div>
+        <div class="logo"></div>
+    </div>
+    <div class="swiper-container swiper-container1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide ban">
+                <img src="images/mingjiang/8363c95cf94b43b3a91109a07d478a47.png" alt="">
+            </div>
+            <div class="swiper-slide ban1">
+                <img src="images/mingjiang/bd1bdabcb82641e99f338b1b23d9b385.png" alt="">
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination fenye"></div>
+    </div>
+    <div class="W_grasp">
+        <div class="W_service-cont">
+            <a href="#">
+                <i class="icon-d-search"></i>
+                <span>报价查询</span>
+            </a>
+            <a href="javascript:void(0);" class="kf CUSTOMER-SERVICE">
+                <i class="icon-d-zxkf"></i>
+                <span>咨询客服</span>
+            </a>
+            <a href="#">
+                <i class="icon-d-fwzn"></i>
+                <span>服务指南</span>
+            </a>
+            <a href="#">
+                <i class="icon-d-lqzx"></i>
+                <span>领券中心</span>
+                <em class="icon-d-voucher-center"></em>
+            </a>
+        </div>
+        <a class="know" href="#">
+            <p class="p1">了解万表名匠<i class="icon-d-under2x"></i></p>
+            <p class="p2"><em>390927</em>位用户选择与认可</p>
+        </a>
+    </div>
+    <div class="W_service_items">
+        <h5 class="title"><span></span>服务项目</h5>
+        <div class="swiper-container swiper-container2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a class="" href="#">
+                        <p>
+                            <img src="images/mingjiang/0e7c43c06599401891e0129d613666fc.jpg" alt="">
+                        </p>
+                        <span>快速服务</span>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="" href="#">
+                        <p>
+                            <img src="images/mingjiang/c9d49f508b6847898aa1fc786961f795.jpg" alt="">
+                        </p>
+                        <span>部分服务</span>
+                    </a>
+                </div>
+                <div class="swiper-slide"><a class="" href="#">
+                        <p>
+                            <img src="images/mingjiang/1f7ace0b82844726bf378824818c3178.jpg" alt="">
+                        </p>
+                        <span>完全服务</span>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="" href="#">
+                        <p>
+                            <img src="images/mingjiang/29c237c738f34b9e8d5504a6499e60e9.jpg" alt="">
+                        </p>
+                        <span>更换配件</span>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="" href="#">
+                        <p>
+                            <img src="images/mingjiang/3a2d017509a947a685034c6aab055dba.jpg" alt="">
+                        </p>
+                        <span>美容订制</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="W_hot_shop">
+        <h5 class="title">
+            <span></span>
+            热门店铺
+            <a href="#">更多店铺</a>
+        </h5>
+        <div class="W_shop">
+            <a href="#">
+                <div class="shop-img">
+                    <img src="images/mingjiang/5190cb9d96be498a9a0528b4700ed790.png" alt="">
+                    <span>35</span>
+                </div>
+                <div class="shop-info">
+                    <p class="p1 elps1">準壹名錶行</p>
+                    <p class="p3"> <span>50年维修老店</span> <span>打造百年名表行</span> </p>
+                    <p class="p4">营业时间 8：30—19：00</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="W_famous">
+        <h5 class="title">
+            <span></span>
+            维修名家
+        </h5>
+        <div class="swiper-container swiper-container3">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#">
+                        <p class="slide-img">
+                            <span>
+                                <img src="images/mingjiang/eed1d67c8cb84f0299343953154aff0d.png" alt="">
+                            </span>
+                        </p>
+                        <span class="elps1 slide-name">古志勇</span>
+                        <span class="elps1 job-title">广诚副总经理</span>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <p class="slide-img">
+                            <span>
+                                <img src="images/mingjiang/a4bb843e211e47c99b122cf30dda4ed6.png" alt="">
+                            </span>
+                        </p>
+                        <span class="elps1 slide-name">卢国朝</span>
+                        <span class="elps1 job-title">华众博艺发起人</span>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <p class="slide-img">
+                            <span>
+                                <img src="images/mingjiang/a2affbc49711449f8a28127eca676eb2.png" alt="">
+                            </span>
+                        </p>
+                        <span class="elps1 slide-name">王泽生</span>
+                        <span class="elps1 job-title">高级技师</span>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <p class="slide-img">
+                            <span>
+                                <img src="images/mingjiang/aed82f6cc46141b5a0ae2cf2f59542b9.png" alt="">
+                            </span>
+                        </p>
+                        <span class="elps1 slide-name">朱飞</span>
+                        <span class="elps1 job-title">资深维修技师</span>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <p class="slide-img">
+                            <span>
+                                <img src="images/mingjiang/40278c11d368425fbd90c4c64cdfb3e7.png" alt="">
+                            </span>
+                        </p>
+                        <span class="elps1 slide-name">陈风景</span>
+                        <span class="elps1 job-title">资深维修技师</span>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <p class="slide-img">
+                            <span>
+                                <img src="images/mingjiang/198b634cee95400a8de09a9590129296.png" alt="">
+                            </span>
+                        </p>
+                        <span class="elps1 slide-name">吴玉庆</span>
+                        <span class="elps1 job-title">高级技师</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="W_footer">
+        <a class="index_home on" href="mingjiang-index.html">
+            <div class="W_footer_img icon-d-home-none"></div>
+            <div class="W_footer_title">首页</div>
+        </a>
+        <a class="index_shop" href="mingjiang-dianpu.html">
+            <div class="W_footer_img icon-d-shop-none"></div>
+            <div class="W_footer_title">店铺</div>
+        </a>
+        <a class="LOGIN" href="javascript:void(0);">
+            <div class="W_footer_img icon-d-service"></div>
+            <div class="W_footer_title services">申请维修</div>
+        </a>
+        <a class="index_member" href="#">
+            <div class="W_footer_img icon-d-find-none"></div>
+            <div class="W_footer_title">发现</div>
+        </a>
+        <a class="index_member" href="#">
+            <div class="W_footer_img icon-d-mine-none"></div>
+            <div class="W_footer_title">我的</div>
+        </a>
+    </div>
+</body>
+<script src="js/mingjiang-index.js"></script>
+<script src="js/swiper.min.js"></script>
+
+</html>

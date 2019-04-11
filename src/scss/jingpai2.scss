@@ -1,0 +1,416 @@
+@charset 'utf-8';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100px;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    font-style: normal;
+}
+
+$jp-color:#cc5252;
+
+/*头部开始*/
+.W-header {
+    width: 7.5rem;
+    height: .88rem;
+    background: #fff;
+    border-bottom: .02rem solid #eee;
+
+    .icon {
+        background: url(../images/yl-img/xueb.png) no-repeat -.98rem 0;
+        background-size: 2.98rem;
+        width: .88rem;
+        height: .88rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .title {
+        text-align: center;
+        font-size: .32rem;
+        color: #333;
+        line-height: .88rem;
+    }
+}
+
+/*头部结束*/
+
+
+/*主体内容开始*/
+main {
+    width: 7.5rem;
+
+    .banner {
+        background-image: url(../images/yl-img/jingpai2.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+        .title {
+            padding: .56rem 0 .42rem 0;
+            text-align: center;
+
+            .p1 {
+                font-size: .4rem;
+                color: #fff;
+                line-height: .56rem;
+            }
+
+            .p2 {
+                font-size: .24rem;
+                color: #fff;
+                line-height: .36rem;
+                letter-spacing: .16rem;
+            }
+        }
+
+        .swiper-container {
+            margin: 0 .36rem;
+
+            .swiper-wrapper .swiper-slide {
+                width: 6.86rem;
+                height: 2.72rem;
+                display: block;
+
+                img {
+                    border-radius: .2rem;
+                }
+            }
+
+            .swiper-pagination .swiper-pagination-bullet-active {
+                background: #d8ae7d !important;
+            }
+        }
+    }
+
+    .toolbar {
+        padding: .1rem .24rem .14rem .24rem;
+        display: flex;
+
+        a {
+            width: 33.3%;
+            padding: .18rem 0;
+            font-weight: 700;
+            display: flex;
+            flex-direction: column;
+
+            .img {
+                width: .96rem;
+                margin: 0 auto;
+            }
+
+            .txt {
+                font-size: .22rem;
+                color: #666;
+                letter-spacing: 0;
+                text-align: center;
+                line-height: .24rem;
+                margin-top: .14rem;
+            }
+        }
+    }
+
+    .explain {
+        padding: 0 .32rem;
+        display: flex;
+        justify-content: space-between;
+
+        .explain-txt {
+            width: 48%;
+            background-image: linear-gradient(0deg, rgba(218, 226, 242, 0) 0, #cfd6e6 100%);
+            text-align: center;
+            border-radius: .16rem;
+            display: flex;
+            flex-direction: column;
+
+            .p1 {
+                font-size: .32rem;
+                color: #665852;
+                line-height: .44rem;
+                padding-top: .4rem;
+                font-weight: 700;
+            }
+
+            .p2 {
+                font-size: .24rem;
+                color: #b39b8f;
+                line-height: .34rem;
+                padding-bottom: .46rem;
+            }
+
+            .p3 {
+                @extend .p1;
+                color: #525866;
+                font-weight: inherit;
+            }
+
+            .p4 {
+                @extend .p2;
+                color: #8f9bb3;
+            }
+        }
+
+        .explain-txt:nth-child(1) {
+            background-image: linear-gradient(0deg, rgba(242, 230, 218, 0) 0, #e6dacf 100%);
+        }
+    }
+
+    .explain-b {
+        margin: .28rem .32rem;
+        background: #f5f5f5;
+        border-radius: 2rem;
+        font-size: .24rem;
+        color: #999;
+        line-height: .56rem;
+        text-align: center;
+
+        span {
+            color: #000;
+            font-weight: 700;
+        }
+    }
+
+    .modular {
+        padding: 0 .24em;
+
+        .title {
+            padding: .22rem 0;
+            display: flex;
+            justify-content: space-between;
+
+            .left {
+                font-size: .36rem;
+                color: #cc5252;
+                font-weight: 700;
+                line-height: .36rem;
+                padding-left: .08rem;
+            }
+
+            .right {
+                font-size: .28rem;
+                color: #999;
+                line-height: .36rem;
+                padding-right: .08rem;
+            }
+        }
+
+        .content {
+            margin-top: .08rem;
+
+            .bidders a {
+                padding: .24rem;
+                background-image: linear-gradient(-269deg, #fbfbfb 0, #f6f6f6 100%);
+                border-radius: .2rem;
+                margin-bottom: .24rem;
+                display: flex;
+                position: relative;
+
+                .left img {
+                    width: 2.2rem;
+                    height: 2.5rem;
+                }
+
+                .right {
+                    margin-left: .32rem;
+
+                    .p1 {
+                        padding-top: .1rem;
+                        font-size: .28rem;
+                        color: #4a4a4a;
+                        line-height: .32rem;
+
+                        .brandCode {
+                            margin-right: .06rem;
+                        }
+                    }
+
+                    .p2 {
+                        padding: .22rem;
+                        font-size: .4rem;
+                        color: $jp-color;
+                        line-height: .4rem;
+                        font-weight: 700;
+                    }
+
+                    .p3 {
+                        padding-top: .14rem;
+                        font-size: .24rem;
+                        color: #999;
+                        line-height: .24rem;
+                        text-decoration: line-through;
+                    }
+
+                    .p4 {
+                        position: absolute;
+                        right: .24rem;
+                        bottom: .24rem;
+                        font-size: .24rem;
+                        color: $jp-color;
+                        display: flex;
+
+                        .time {
+                            margin-left: .08rem;
+                            display: flex;
+
+                            span {
+                                background: $jp-color;
+                                border-radius: .08rem;
+                                color: #fff;
+                                padding: .1rem;
+                            }
+
+                            .txt {
+                                color: #999;
+                                margin: 0 .04rem;
+                                display: inline-block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .more {
+            background-image: linear-gradient(-90deg, #fbfbfb 0, #f6f6f6 100%);
+            border-radius: .2rem;
+            height: 1.08rem;
+            font-size: .32rem;
+            color: $jp-color;
+            line-height: 1.08rem;
+            text-align: center;
+            display: block;
+
+            .more-a {
+                background-image: url(../images/yl-img/jp-right.png);
+                background-size: 100%;
+                width: .32rem;
+                height: .32rem;
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
+
+        .logo {
+            background: #fff;
+            box-shadow: inset 0 -1px 0 0 #eee;
+            margin: .4rem 0;
+
+            .p1 {
+                font-size: .28rem;
+                color: #6b7a99;
+                padding: .12rem 0;
+                text-align: center;
+                font-weight: 700;
+            }
+
+            .p2 {
+                padding: 0 .6rem .46rem .6rem;
+                display: flex;
+
+                .logo-b {
+                    width: 33.33%;
+                    display: flex;
+                    text-align: center;
+
+                    .icon {
+                        background-image: url(../images/yl-img/jp-logo.png);
+                        background-size: 100%;
+                        width: .24rem;
+                        height: .24rem;
+                        display: inline-block;
+                        vertical-align: middle;
+                        margin-right: .04rem;
+                    }
+
+                    .txt {
+                        font-size: .24rem;
+                        color: #999;
+                        vertical-align: middle;
+                        line-height: .24rem;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .understand {
+        .title {
+            padding: .22rem 0 .22rem .24rem;
+            font-size: .36rem;
+            color: #333;
+            line-height: .36rem;
+            font-weight: 700;
+        }
+
+        .img {
+            padding: .08rem .2rem 0 .2rem;
+            display: block;
+
+            img {
+                height: 2.32rem;
+                width: 100%;
+                border-radius: .1rem;
+            }
+        }
+
+        .txt {
+            padding: .28rem .36rem 0 .36rem;
+            font-size: .24rem;
+            color: #666;
+            line-height: .4rem;
+        }
+
+        .more {
+            margin: .2rem .24rem 0 .24rem;
+            height: 1.08rem;
+            font-size: .28rem;
+            color: #999;
+            text-align: center;
+            line-height: 1.08rem;
+            background: #fff;
+            box-shadow: inset 0 -1px 0 0 #eee;
+            display: block;
+        }
+
+        .log-bom {
+            .bom {
+                width: 3.6rem;
+                height: 1.6rem;
+                line-height: 0.6rem;
+                margin: .8rem auto;
+                text-align: center;
+
+                .txt1 {
+                    font-size: .43rem;
+                    font-weight: 700;
+                    color: #cdcdcd;
+                }
+
+                .txt2 {
+                    font-size: .24rem;
+                    color: #cdcdcd;
+                }
+            }
+        }
+    }
+}
+
+/*主体内容结束*/

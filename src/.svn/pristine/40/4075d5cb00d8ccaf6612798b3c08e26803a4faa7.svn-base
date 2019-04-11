@@ -1,0 +1,55 @@
+*,::before,::after{
+    margin:0;
+    padding:0;
+    /*清除移动端默认的点击高亮效果*/
+    -webkit-tap-highlight-color:transparent;
+    /*设置以边框开始计算宽度*/
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+html{
+    font-size: 100px;
+}
+body{
+    font-size:.28rem;
+    font-family:"Microsoft YaHei",sans-serif;/*设备默认字体*/
+    color:#333;
+}
+
+a{
+    color:#333;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:none;
+}
+
+ul,ol{
+    list-style:none;
+}
+
+input{
+    border:none;
+    outline:none;
+    /*清除移动端默认的表单样式*/
+    -webkit-appearance:none;
+}
+
+/*common css*/
+.fl{
+    float:left;
+}
+
+.fr{
+    float:right;
+}
+
+.clearfix::before,.clearfix::after{
+    content:"";
+    height:0;
+    line-height:0;
+    display:block;
+    visibility:hidden;
+    clear:both;
+}

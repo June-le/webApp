@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/pinpai.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <script src="../js/base.js"></script>
+</head>
+
+<body>
+    <!-- 品牌开始 -->
+
+    <!-- 品牌top开始 -->
+    <div class="pinpai">
+        <div class="trend">
+            <p class="trend-text">品牌</p>
+            <p class="trend-line"></p>
+        </div>
+        <!-- 品牌banner开始 -->
+        <div class="swiper-container pinpai-banner">
+            <div class="swiper-wrapper banner">
+                <a href="#" class="swiper-slide banner0">
+                    <img src="../images/photo/pinpai.jpg" alt="">
+                </a>
+
+                <a href="#" class="swiper-slide banner0">
+                    <img src="../images/photo/pinpaia.jpg" alt="">
+                </a>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+        </div>
+        <!-- 品牌banner结束 -->
+    </div>
+    <!-- 品牌top结束 -->
+
+    <!-- 品牌bom开始 -->
+    <div class="pinpai-bom">
+        <a href="">
+            <img src="../images/photo/pinpai1.jpg" alt="">
+        </a>
+        <a href="">
+            <img src="../images/photo/pinpai2.jpg" alt="">
+        </a>
+        <a href="">
+                <img src="../images/photo/pinpai3.jpg" alt="">
+            </a>
+        <a href="">
+            <img src="../images/photo/pinpai4.jpg" alt="">
+        </a>
+        <a href="">
+            <img src="../images/photo/pinpai5.jpg" alt="">
+        </a>
+        <a href="">
+            <img src="../images/photo/pinpai6.jpg" alt="">
+        </a>
+        <a href="">
+            <img src="../images/photo/pinpai7.jpg" alt="">
+        </a>
+        <a href="">
+            <img src="../images/photo/pinpai8.jpg" alt="">
+        </a>
+        <a href="">
+            <img src="../images/photo/pinpai9.jpg" alt="">
+        </a>
+    </div>
+    <!-- 品牌bom结束 -->
+
+    <!-- 品牌结束 -->
+
+
+
+    <!-- 闪购 -->
+    <div class="pinpai">
+            <div class="trend">
+                <p class="trend-text">闪购</p>
+                <p class="trend-line"></p>
+            </div>
+            <!-- 闪购banner开始 -->
+            <div class="swiper-container pinpai-banner">
+                <div class="swiper-wrapper banner">
+                    <a href="#" class="swiper-slide banner0">
+                        <img src="../images/photo/shangou.jpg" alt="">
+                    </a>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- 闪购banner结束 -->
+        </div>
+          <!-- 闪购bom开始 -->
+    <div class="shangou-bom">
+            <div class="swiper-container shangou-bom-banner">
+                <div class="swiper-wrapper tdt">
+                    <a href="#" class="swiper-slide tdt-img"></a>
+                    <a href="#" class="swiper-slide tdt-img"></a>
+                    <a href="#" class="swiper-slide tdt-img"></a>
+                    <a href="#" class="swiper-slide tdt-img"></a>
+                    <a href="#" class="swiper-slide tdt-img"></a>
+                    <a href="#" class="swiper-slide tdt-img"></a>
+                </div>
+            </div>
+        </div>
+        <!--闪购bom结束 -->
+</body>
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script src="../js/swiper.min.js"></script>
+<script src="../js/pinpai.js"></script>
+
+</html>

@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 100px;
+}
+.trendsetter .trend{
+    margin: 16px 0 14px 0;
+}
+.trendsetter .trend .trend-text{
+    font-size: .32rem;
+    color: #333;
+    line-height: .32rem;
+    text-align: center;
+    margin-bottom: .24rem;
+    font-weight: 700;
+}
+.trendsetter .trend .trend-line{
+    width: .48rem;
+    height: .04rem;
+    background: #ccaa7a;
+    margin: 0 auto;
+}
+/* 潮人banner图开始 */
+.trendsetter .trendsetter-banner{
+    width: 7.5rem;
+}
+.trendsetter .trendsetter-banner .banner .banner0{
+    background: url(../images/trendsetter-img/trendsetter.jpg) no-repeat 0 0;
+    background-size: cover;
+    width: 7.5rem;
+    height: 5rem;
+}
+.trendsetter .trendsetter-banner .swiper-pagination-bullet{
+    width: .4rem;
+    background-color: #ccaa7a;
+    border-radius: .1rem;
+}
+/* 潮人banner图结束 */
+
+/* 潮人banner商品开始 */
+.trendsetter-bom{
+    width: 7.5rem;
+}
+.trendsetter-bom .trendsetter-bom-banner{
+    margin: 20px 0 0 8px;
+}
+.trendsetter-bom .trendsetter-bom-banner .tdt .tdt-img{
+    width: 3.1rem;
+    height: 4.1rem;
+    margin-right: .16rem;
+}
+.trendsetter-bom .trendsetter-bom-banner .tdt .tdt-img:nth-child(1){
+    background: url(../images/trendsetter-img/shlsq.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+.trendsetter-bom .trendsetter-bom-banner .tdt .tdt-img:nth-child(2){
+    background: url(../images/trendsetter-img/fyzd.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+.trendsetter-bom .trendsetter-bom-banner .tdt .tdt-img:nth-child(3){
+    background: url(../images/trendsetter-img/dlrb.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+.trendsetter-bom .trendsetter-bom-banner .tdt .tdt-img:nth-child(4){
+    background: url(../images/trendsetter-img/seiko-P.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+.trendsetter-bom .trendsetter-bom-banner .tdt .tdt-img:nth-child(5){
+    background: url(../images/trendsetter-img/yklm.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+.trendsetter-bom .trendsetter-bom-banner .tdt .tdt-img:nth-child(6){
+    background: url(../images/trendsetter-img/gbx.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+/* 潮人banner商品结束 */

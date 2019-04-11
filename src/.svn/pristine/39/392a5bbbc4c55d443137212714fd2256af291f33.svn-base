@@ -1,0 +1,9 @@
+;(function(){
+    if (getCookie("user")) {
+        $(".head-login .p1").html(getCookie("user"));
+    } else {
+        $(".head-login").html("<a href='login.html'>登录注册</a>")
+    }
+    
+
+})()

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/base.js"></script>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/touch.js"></script>
+    <script src="js/ejs.js"></script>
+    <link rel="stylesheet" href="css/mingjiang-city.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+
+<body>
+    <header>
+        <div class="hd-back"><a href="javascript:window.history.back();"></a></div>
+        <div class="hd-title">选择城市</div>
+    </header>
+    <main>
+        <div class="city-box">
+            <h5 class="postion"><i class="icon-d-position"></i></h5>
+            <div class="W_hotCity">
+                <h6>热门城市</h6>
+                <ul class="hot-list">
+
+                </ul>
+
+            </div>
+            <div class="city-list wrapper">
+                <ul>
+
+                </ul>
+            </div>
+        </div>
+        <div class="city-index">
+            <ul>
+
+            </ul>
+        </div>
+    </main>
+    <script type="text/template" id="tpl">
+        <% list.forEach(function(val){ %>
+            <li><a href="#"><%=val.name%></a></li>
+      <% }) %>
+   </script>
+    <script type="text/template" id="tpl1">
+        <% for(var key in list1){ %>
+        <li class="list_box"><h4 id="A"><%=key%></h4>
+            <div class="all-add">
+               <% list1[key].forEach(function(val){  %>
+                    <div class="add"><p><a href="#"><%=val.name%></a></p></div>
+               <% }) %>        
+                    </div>
+        </li>
+  <% } %>
+</script>
+<script type="text/template" id="tpl2">
+    <% for(var key in list2){ %>
+    <li class="index_box"><%=key%></li>
+<% } %>
+</script>
+</body>
+<script src="js/area.js"></script>
+<script src="js/iscroll.js"></script>
+<script src="js/mingjiang-city.js"></script>
+
+</html>

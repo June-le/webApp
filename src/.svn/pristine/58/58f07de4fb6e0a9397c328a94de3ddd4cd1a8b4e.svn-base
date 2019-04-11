@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>新人专享</title>
+    <link rel="stylesheet" href="css/forNewUser.css">
+</head>
+
+<body>
+    <main>
+        <!-- 头部开始 -->
+        <div class="wrap-1">
+            <img src="images/yl-img/wrap-1.jpg" alt="">
+            <div class="wrap-txt">
+                <p class="txt1">云表</p>
+                <p class="txt2">YBIAO.CN</p>
+            </div>
+            <div class="wrap-in">
+                <input type="text" placeholder="请输入手机号" class="num">
+                <div class="btn">立即领取</div>
+            </div>
+        </div>
+        <!-- 头部结束 -->
+
+        <!-- 主体内容开始 -->
+        <div class="wrap-2">
+            <div class="title">
+                <p class="title-text">买手表 上云表</p>
+                <p class="title-line"></p>
+            </div>
+            <div class="txt">
+                <p class="txt-main">甄选全球高品质腕表品牌；品牌直采，100%原装正品；厚道的理念，公道的价格；7年0假货</p>
+            </div>
+            <div class="img">
+                <img src="images/yl-img/first.jpg" alt="">
+            </div>
+        </div>
+        <div class="wrap-2">
+            <div class="title">
+                <p class="title-text">终身售后 后顾无忧</p>
+                <p class="title-line"></p>
+            </div>
+            <div class="txt">
+                <p class="txt-main">云表名匠手表维修诚信平台，以诚信维修、价格透明的服务理念，打造手表维修金字塔招牌，携手全国800+云表名匠维修店铺，为消费者提供专业可靠的手表检测、保养、维修等售后服务。</p>
+            </div>
+            <div class="img">
+                <img src="images/yl-img/OLD-WATCH.jpg" alt="">
+            </div>
+        </div>
+        <div class="wrap-2">
+            <div class="title">
+                <p class="title-text">12期免息 购表更轻松</p>
+                <p class="title-line"></p>
+            </div>
+            <div class="txt">
+                <p class="txt-main">工商银行、建设银行、中国银行、农业银行、交通银行、招商银行、民生银行、等十五家顶级银行开展合作，提供免息分期服务。云表合作的名表品牌也进驻银行商场，合作推广，成为银行指定的专业钟表类供应商。</p>
+            </div>
+            <div class="img">
+                <img src="images/yl-img/bank.jpg" alt="">
+            </div>
+        </div>
+        <div class="wrap-2">
+            <div class="title">
+                <p class="title-text">合作品牌</p>
+                <p class="title-line"></p>
+            </div>
+            <div class="txt">
+                <p class="txt-main">云表在全球手表行业具有良好的行业口碑及知名度，拥有超过20个欧洲著名钟表品牌的中国大陆地区独家总代理，商城在售的全球名表品牌超过100个。</p>
+            </div>
+            <div class="img">
+                <img src="images/yl-img/pinpai.jpg" alt="">
+            </div>
+            <div class="button">
+                <p class="txt-in">立即领取3500元新手福利</p>
+            </div>
+        </div>
+        <!-- 主体内容结束 -->
+    </main>
+    <script src="js/base.js"></script>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/forNewUser.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品详情</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/detail.css">
+</head>
+
+<body>
+    <main>
+        <!-- 头部导航开始 -->
+        <div class="headOut">
+            <header class="W_title">
+                <ul class="clearfix">
+                    <li class="wb_back">
+                        <a href="javascript:window.history.back();" class="icon-d-back02"></a>
+                    </li>
+                    <li class="wb_title_middle wb_goods_tab">
+                        <ul class="tabs" id="wb_goods_tab">
+                            <li><a href="javascript:void(0);" class="on">商品</a></li>
+                            <li><a href="javascript:void(0);" class="">详情</a></li>
+                            <li><a href="javascript:void(0);" class="">评价</a></li>
+                            <li><a href="javascript:void(0);" class="">门店</a></li>
+                        </ul>
+                    </li>
+                    <li class="wb_more">
+                        <a href="javascript:void(0);" class="to_more icon-a-nav02"></a>
+                    </li>
+                </ul>
+            </header>
+        </div>
+        <div class="ol_show h">
+            <div class="jiao"></div>
+            <a href="index.html">首页</a>
+            <a class="#">分享</a>
+            <a href="footprint.html">足迹</a>
+        </div>
+        <!-- 头部导航结束 -->
+        <!--主体内容开始  -->
+        <section class="W_detail">
+            <div id="tabs-container" class="swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- 商品单元开始 -->
+                    <div class="swiper-slide product">
+                        <div id="main-contant">
+                            <div class="inner-wraps">
+                                <div class="pr_carousel">
+                                    <div class="swiper-container-carousel pr_carousel_content swiper-container">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img class="swiper-lazy"
+                                                    data-src="https://image7.wbiao.co/shop/121382c5d7ee4bcfbdb3061eb3f0ca03.jpg?x-oss-process=image/resize,m_pad,w_750,h_750,color_ffffff"
+                                                    alt="">
+                                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img class="swiper-lazy"
+                                                    data-src="https://image7.wbiao.co/shop/5c5921ea1d0b479bbd13dbf8ca0e0404.jpg?x-oss-process=image/resize,m_pad,w_750,h_750,color_ffffff"
+                                                    alt="">
+                                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img class="swiper-lazy"
+                                                    data-src="https://image7.wbiao.co/shop/0c2f546fff5b4180b93ce3a4f4f40e3f.jpg?x-oss-process=image/resize,m_pad,w_750,h_750,color_ffffff"
+                                                    alt="">
+                                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                                <div class="pr_title">
+                                    <div class="price">
+                                        <div class="price_a">
+                                            <span class="price_a_jiage">
+                                                ¥<i class="wbPrice">1979</i>
+                                            </span>
+                                            <span class="price_b_jiage">¥4500</span>
+                                            <span class="price_a_flash">一口价</span>
+                                            <span class="price_a_bargain fr">
+                                                <p class="ico icon-d-goods-xin detail_footer_ico3 " data-index=""></p>
+                                                <p class="txt">收藏</p>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="title">
+                                        <span class="title_b share_text">
+                                            优立时unizeit-歌德系列
+                                            BC001-SL100-10BN 机械男表
+                                        </span>
+                                    </div>
+                                    <div class="lead"> 顺丰快递 德国制造 卓越品质 质保两年</div>
+                                    <div class="tagTitle">无需领券，已为您设置最大折扣，咨询客服下单即可</div>
+                                    <div class="price">
+                                        <div class="price_b">
+                                            <span class="price_b_ico icon-a-goods-logo h">
+                                            </span>
+                                            <span class="price_text">顺丰包邮</span>
+                                            <span class="price_b_sale fr">销售：30</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="pr_coice">
+                                <div class="coice_content clearfix">
+                                    <div class="coice_content_title fl">已选</div>
+                                    <div class="coice_content_cont fl"> <span class="coice_content_cont_cont">真皮 白色
+                                            牛皮</span>
+                                        <span class="coice_content_cont_num">1</span>个</div>
+                                    <div class="icon-a-goods-more fr"></div>
+                                </div>
+                            </div>
+                            <div class="pr_coupons">
+                                <div class="coupons_stages clearfix">
+                                    <div class="coupons_stages_title fl">分期</div>
+                                    <div class="coupons_stages_contnet fl">每月<span
+                                            class="coupons_stages_contnet_price">164.9</span>
+                                        元x12期 <span class="charge">免息免手续费</span></div>
+                                    <div class="coupons_stages_more icon-a-goods-more fr"></div>
+                                </div>
+                            </div>
+
+                            <div class="pr_distribution">
+                                <div class="distribution clearfix">
+                                    <div class="distribution_title fl">配送</div>
+                                    <div class="distribution_content fl">
+                                        <div class="distribution_content_a"> <span></span> <span
+                                                class="black">免运费</span></div>
+                                        <div class="distribution_content_b">下单后预计3-7个工作日内发货</div>
+                                    </div>
+                                </div>
+                                <div class="brand clearfix" id="brand"> <a class="fl"><span
+                                            class="brand_ico icon-d-goods-service2"></span>
+                                        <span class="brand_text brand_textTwo">正品保障</span></a> <a class="fl"><span
+                                            class="brand_ico icon-d-goods-service2"></span>
+                                        <span class="brand_text brand_textTwo">正规发票</span></a> <a class="fl"><span
+                                            class="brand_ico icon-d-goods-service2"></span>
+                                        <span class="brand_text brand_textTwo">假一赔三</span></a> <a class="fl"><span
+                                            class="brand_ico icon-d-goods-service2"></span>
+                                        <span class="brand_text brand_textTwo">7天退换</span></a> <a class="fl"><span
+                                            class="brand_ico icon-d-goods-service2"></span>
+                                        <span class="brand_text brand_textTwo">全球联保</span></a> <a class="fl"><span
+                                            class="brand_ico icon-d-goods-service2"></span>
+                                        <span class="brand_text brand_textTwo">免息分期</span></a> </div>
+                            </div>
+                            <div class="W_popularity">
+                                <p class="with">人气搭配 <span>搭配购买更优惠</span></p>
+                                <div class="W_combination"><a href="javascript:void(0);">
+                                        <p class="p1"><img src="./images/detail/W_popularity-01.jpg" alt=""></p>
+                                        <p class="p2">￥1979</p>
+                                    </a> <span class="fl">+</span><a href="https://m.wbiao.cn/goods/70808">
+                                        <p class="p1"><img src="./images/detail/W_popularity-02.jpg" alt=""></p>
+                                        <p class="p2">￥83</p>
+                                        <p class="p3">优惠￥55</p>
+                                    </a> <span class="fl">+</span> <span class="fl more">搭配更多</span></div>
+                            </div>
+                            <div class="wbService">
+                                <div class="title">万表服务</div>
+                                <div class="content"> <a href="https://m.wbiao.cn/mingjiang/?from=m_spsq"
+                                        class="clearfix">
+                                        <div class="img fl"><img src="images/detail/wbService-01.png" alt=""></div>
+                                        <div class="title fl">
+                                            <p class="p1">万表名匠</p>
+                                            <p class="p2">手表维修诚信平台</p>
+                                        </div>
+                                        <div class="ico fr icon-d-jiantou"></div>
+                                    </a> <a href="https://wbshare-m.wbiao.cn/recovery/?from=m_spxqy" class="clearfix">
+                                        <div class="img fl"><img src="images/detail/wbService-02.png" alt=""></div>
+                                        <div class="title fl">
+                                            <p class="p1">保底回收</p>
+                                            <p class="p2">多方出价 极速变现</p>
+                                        </div>
+                                        <div class="ico fr icon-d-jiantou"></div>
+                                    </a> </div>
+                            </div>
+                            <div class="pr_evaluate">
+                                <div class="evaluate_title clearfix">
+                                    <span class="evaluate_title_a fl">评价(23)</span>
+                                    <span class="evaluate_title_d icon-a-goods-more fr"></span>
+                                    <span class="evaluate_title_c fr">100%</span>
+                                    <span class="evaluate_title_b fr">好评</span>
+                                </div>
+                                <div class="evaluate_content">
+
+                                </div>
+                                <div class="evaluate_more">
+                                    <li class="evaluate_more_whole">全部评价(23)</li>
+                                    <li class="CUSTOMER-SERVICE" service-code="wx_1000_1515726307656">咨询客服</li>
+                                </div>
+                            </div>
+                            <div class="pr_shop">
+                                <a href="https://m.wbiao.cn/shop/359" class="shop_title clearfix" data-index="359">
+                                    <div class="shop_title_logo fl">
+                                        <img src="images/detail/dian.jpg" alt="">
+                                    </div>
+                                    <div class="shop_title_txt fl">
+                                        <div class="shop_title_txt_a"> <span>德国优立时官方旗舰店</span> <span>自营</span> </div>
+                                        <div class="shop_title_txt_b">销量941</div>
+                                    </div>
+                                </a> <a href="https://m.wbiao.cn/shop/359" class="shop_content">
+                                    <div class="shop_content_text clearfix">
+                                        <li class="shop_content_text_a fl">“66”</li>
+                                        <li class="shop_content_text_a fl">“1268”</li>
+                                    </div>
+                                    <div class="shop_content_text clearfix">
+                                        <li class="shop_content_text_b fl">全部商品</li>
+                                        <li class="shop_content_text_b fl">关注粉丝数</li>
+                                    </div>
+                                </a>
+                                <div class="shop_more">
+                                    <li class="fl"><span class="shop_more_ico icon-a-goods-classify"></span> <span
+                                            class="shop_more_text CUSTOMER-SERVICE"
+                                            data-index="wx_1000_1515726307656">联系商家</span></li>
+                                    <li class="fl"><span class="shop_more_ico icon-a-goods-store"></span> <span
+                                            class="shop_more_text"><a href="https://m.wbiao.cn/shop/359">
+                                                <span>进店逛逛</span> </a></span></li>
+                                </div>
+                            </div>
+                            <!-- <div class="pr_upMore">
+                                <span class="pr_upMore_ico icon-a-goods-upper"></span>
+                                <span>上拉查看详情</span>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!-- 商品单元结束 -->
+
+                    <!-- 详情单元开始 -->
+                    <div class="swiper-slide detailsPage details">
+                        <div class="W_gnTab_nav" id="details">
+                            <ul>
+                                <li class="on"><a href="javascript:;">商品介绍</a></li>
+                                <li><a href="javascript:;">规格参数</a></li>
+                                <li><a href="javascript:;">售后服务</a></li>
+                            </ul>
+                        </div>
+                        <div class="W_gnTab_content" id="details_content">
+                            <div class="gnTabs_block de_introduce">
+                                <div class="de_introduce_title">商品展示区划去的价格为品牌建议零售价，并非原价；万表价为商品实时售价，欢迎比较购买!</div>
+                                <div class="img2"> <img src="images/detail/de_introduce-01.jpg" alt=""></div>
+                                <div class="de_introduce_content">
+                                    <p><img alt="" src="images/detail/de_introduce-02.jpg"></p>
+
+                                    <p><img alt="" src="images/detail/de_introduce-03.jpg"></p>
+
+                                    <p><img alt="" src="images/detail/de_introduce-04.jpg"></p>
+                                </div>
+                                <div class="footprintList">
+                                    <div class="title">看了又看</div>
+                                    <div class="content clearfix"> <a class="fl" href="/goods/16809">
+                                            <div class="img"> <img src="images/detail/de_introduce-klyk-01.jpg" alt="">
+                                            </div>
+                                            <div class="title">[瑞士原装正品，全球联保]欧米茄Omega-海马系列 212.30.41.20.03.001 机械男表</div>
+                                            <div class="price">￥26,568</div>
+                                        </a> <a class="fl" href="/goods/10759">
+                                            <div class="img"> <img src="images/detail/de_introduce-klyk-02.jpg" alt="">
+                                            </div>
+                                            <div class="title">[瑞士原装正品，全球联保]欧米茄Omega-海马系列 212.30.41.20.01.003 机械男表</div>
+                                            <div class="price">￥26,560</div>
+                                        </a> <a class="fl" href="/goods/25414">
+                                            <div class="img"> <img src="images/detail/de_introduce-klyk-03.jpg" alt="">
+                                            </div>
+                                            <div class="title">源自星空的浪漫！瑞士艺术制表大师爱宝时（EPOS）-Emotion情感系列
+                                                浪漫星月3391.832.20.16.25 神秘月相机械表</div>
+                                            <div class="price">￥14,040</div>
+                                        </a> <a class="fl" href="/goods/25414">
+                                            <div class="img"> <img src="images/detail/de_introduce-klyk-04.jpg" alt="">
+                                            </div>
+                                            <div class="title">源自星空的浪漫！瑞士艺术制表大师爱宝时（EPOS）-Emotion情感系列
+                                                浪漫星月3391.832.20.16.25 神秘月相机械表</div>
+                                            <div class="price">￥14,040</div>
+                                        </a> <a class="fl" href="/goods/53471">
+                                            <div class="img"> <img src="images/detail/de_introduce-klyk-05.jpg" alt="">
+                                            </div>
+                                            <div class="title">瑞士艺术制表大师爱宝时（EPOS）-Passion激情系列 3434.183.20.34.25
+                                                收藏家（新品）机械男表 限量999枚</div>
+                                            <div class="price">￥9,040</div>
+                                        </a> <a class="fl" href="/goods/48707">
+                                            <div class="img"> <img src="images/detail/de_introduce-klyk-06.jpg" alt="">
+                                            </div>
+                                            <div class="title">瑞士柏高Paul Picot -梦想家 商务休闲 P4104.SG.1021.1106 机械男表</div>
+                                            <div class="price">￥10,290</div>
+                                        </a> </div>
+                                </div>
+                            </div>
+                            <div class="gnTabs_block de_parameter">
+                                <div class="de_parameter_title">商品展示区划去的价格为品牌建议零售价，并非原价；万表价为商品实时售价，欢迎比较购买！</div>
+                                <div class="de_parameter_content">
+                                    <div class="title">真皮 白色 牛皮-规格参数</div>
+                                    <div class="content clearfix">
+                                        <div class="content_a fl">腕表机芯</div>
+                                        <div class="content_b fl">
+                                            <div class="content_b_a clearfix">
+                                                <div class="content_b_a_a fl">机芯类型</div>
+                                                <div class="content_b_a_b fl">机械、手动机械</div>
+                                            </div>
+                                            <div class="content_b_a clearfix">
+                                                <div class="content_b_a_a fl">机芯型号</div>
+                                                <div class="content_b_a_b fl">TY2901</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content clearfix">
+                                        <div class="content_a fl">腕表外壳</div>
+                                        <div class="content_b fl">
+                                            <div class="content_b_a clearfix">
+                                                <div class="content_b_a_a fl">外壳材质</div>
+                                                <div class="content_b_a_b fl">不锈钢、钢</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content clearfix">
+                                        <div class="content_a fl">腕表表盘</div>
+                                        <div class="content_b fl">
+                                            <div class="content_b_a clearfix">
+                                                <div class="content_b_a_a fl">表盘宽度</div>
+                                                <div class="content_b_a_b fl">39.5mm</div>
+                                            </div>
+                                            <div class="content_b_a clearfix">
+                                                <div class="content_b_a_a fl">表盘厚度</div>
+                                                <div class="content_b_a_b fl">13.2mm</div>
+                                            </div>
+                                            <div class="content_b_a clearfix">
+                                                <div class="content_b_a_a fl">表耳</div>
+                                                <div class="content_b_a_b fl">20mm</div>
+                                            </div>
+                                            <div class="content_b_a clearfix">
+                                                <div class="content_b_a_a fl">表盘直径</div>
+                                                <div class="content_b_a_b fl">主流35mm-40mm</div>
+                                            </div>
+                                            <div class="content_b_a clearfix">
+                                                <div class="content_b_a_a fl">表盘形状</div>
+                                                <div class="content_b_a_b fl">圆形</div>
+                                            </div>
+                                            <div class="content_b_a clearfix">
+                                                <div class="content_b_a_a fl">表壳底盖</div>
+                                                <div class="content_b_a_b fl">透底</div>
+                                            </div>
+                                            <div class="content_b_a clearfix">
+                                                <div class="content_b_a_a fl">表盘刻度</div>
+                                                <div class="content_b_a_b fl">阿拉伯文</div>
+                                            </div>
+                                            <div class="content_b_a clearfix">
+                                                <div class="content_b_a_a fl">表盘颜色</div>
+                                                <div class="content_b_a_b fl">白色</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content clearfix">
+                                        <div class="content_a fl">腕表表带</div>
+                                        <div class="content_b fl">
+                                            <div class="content_b_a clearfix">
+                                                <div class="content_b_a_a fl">表带材质</div>
+                                                <div class="content_b_a_b fl">牛皮、真皮</div>
+                                            </div>
+                                            <div class="content_b_a clearfix">
+                                                <div class="content_b_a_a fl">表带颜色</div>
+                                                <div class="content_b_a_b fl">黑色</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content clearfix">
+                                        <div class="content_a fl">腕表表扣</div>
+                                        <div class="content_b fl">
+                                            <div class="content_b_a clearfix">
+                                                <div class="content_b_a_a fl">表扣类型</div>
+                                                <div class="content_b_a_b fl">针扣</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content clearfix">
+                                        <div class="content_a fl">腕表其他</div>
+                                        <div class="content_b fl">
+                                            <div class="content_b_a clearfix">
+                                                <div class="content_b_a_a fl">功能</div>
+                                                <div class="content_b_a_b fl">计时码表</div>
+                                            </div>
+                                            <div class="content_b_a clearfix">
+                                                <div class="content_b_a_a fl">适用人群</div>
+                                                <div class="content_b_a_b fl">男表</div>
+                                            </div>
+                                            <div class="content_b_a clearfix">
+                                                <div class="content_b_a_a fl">推出年份</div>
+                                                <div class="content_b_a_b fl">2015年</div>
+                                            </div>
+                                            <div class="content_b_a clearfix">
+                                                <div class="content_b_a_a fl">重量</div>
+                                                <div class="content_b_a_b fl">70g</div>
+                                            </div>
+                                            <div class="content_b_a clearfix">
+                                                <div class="content_b_a_a fl">特殊功能</div>
+                                                <div class="content_b_a_b fl">计时码表</div>
+                                            </div>
+                                            <div class="content_b_a clearfix">
+                                                <div class="content_b_a_a fl">防水</div>
+                                                <div class="content_b_a_b fl">50米</div>
+                                            </div>
+                                            <div class="content_b_a clearfix">
+                                                <div class="content_b_a_a fl">佩戴场合</div>
+                                                <div class="content_b_a_b fl">商务休闲、时尚</div>
+                                            </div>
+                                            <div class="content_b_a clearfix">
+                                                <div class="content_b_a_a fl">送礼对象</div>
+                                                <div class="content_b_a_b fl">送父亲、送男友、送老公</div>
+                                            </div>
+                                            <div class="content_b_a clearfix">
+                                                <div class="content_b_a_a fl">联保</div>
+                                                <div class="content_b_a_b fl">全球联保，两年保修</div>
+                                            </div>
+                                            <div class="content_b_a clearfix">
+                                                <div class="content_b_a_a fl">价格区间</div>
+                                                <div class="content_b_a_b fl">3000-5000</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gnTabs_block de_service">
+                                <div class="de_service_title">1.商品展示区划去的价格为品牌建议零售价，并非原价；万表价为商品实时售价，欢迎比较购买！</div> <a
+                                    href="/mingjiang/" class="img h"><img src="" alt=""></a>
+                                <div class="de_service_content">
+                                    <p><img alt="" src="images/detail/server-01.png"><span
+                                            style="font-size:10.5pt"><span style="font-family:Calibri"><span
+                                                    style="font-size:10.5000pt"><span style="font-family:宋体"><span
+                                                            style="font-family:宋体">&nbsp;
+                                                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                                            &nbsp; &nbsp;</span></span></span></span></span></p>
+
+                                    <p>&nbsp;</p>
+
+                                    <p><span style="font-size:10.5pt"><span style="font-family:Calibri"><span
+                                                    style="font-size:10.5000pt"><span style="font-family:宋体"><span
+                                                            style="font-family:宋体">&nbsp;
+                                                            &nbsp; &nbsp;
+                                                            &nbsp;<strong>售后详细规则请参考：https://www.wbiao.cn/help-20.html</strong></span></span></span></span></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 详情单元结束 -->
+
+                    <!-- 评价单元开始 -->
+                    <div class="swiper-slide evaluate">
+                        <div class="W_gnTab_nav" id="evaluate">
+                            <ul>
+                                <li class="on" id="evaluate_total" data-index="24"><a href="javascript:;">全部(24)</a>
+                                </li>
+                                <li><a href="javascript:;" id="evaluate_total_img" data-index="11">有图(11)</a></li>
+                            </ul>
+                        </div>
+                        <div class="W_gnTab_content" id="evaluate_content">
+                            <div class="gnTabs_block block1 ev_content">
+                                <div id="evaluate_total_content">
+                                </div>
+                                <div class="detail_more">查看更多</div>
+                            </div>
+                            <div class="gnTabs_block block2 ev_content h">
+                                <div id="evaluate_total_content2">
+                                </div>
+                                <div class="detail_more">查看更多</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 评价单元结束 -->
+
+                    <!-- 门店单元开始 -->
+                    <div class="swiper-slide store">
+                        <div class="store-title clearfix">
+                            <li class="fl on">体验门店</li>
+                            <li class="fl">名匠门店</li>
+                        </div>
+                        <div class="store-content">
+                            <li class="store-1">
+                                <div class="banner"><img src="images/detail/store-left-01.png" alt=""></div>
+                                <div class="content">
+                                    <div class="list">
+                                        <div class="img"><img src="images/detail/store-left-02.png" alt=""></div>
+                                        <div class="title clearfix">
+                                            <div class="left fl">
+                                                <p class="p1">万表全球名表体验中心-广州总部</p>
+                                                <p class="p2">广东广州番禺区广州市番禺区大石街番禺大道北60-1号</p>
+                                            </div> <a class="right fr phone" href="tel:400-883-2688"><img
+                                                    src="images/detail/store-tel.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="list">
+                                        <div class="img"><img src="images/detail/store-left-03.png" alt=""></div>
+                                        <div class="title clearfix">
+                                            <div class="left fl">
+                                                <p class="p1">万表城市体验店-重庆</p>
+                                                <p class="p2">重庆重庆渝中区渝中区邹容路50号半岛国际25楼</p>
+                                            </div> <a class="right fr phone" href="tel:023-63726231"><img
+                                                    src="images/detail/store-tel.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="list">
+                                        <div class="img"><img src="images/detail/store-left-04.png" alt=""></div>
+                                        <div class="title clearfix">
+                                            <div class="left fl">
+                                                <p class="p1">万表城市体验店-福州</p>
+                                                <p class="p2">福建福州福建省福州市台江区江滨西大道100号融侨中心2层2015-1 店</p>
+                                            </div> <a class="right fr phone" href="tel:0591-87327880 "><img
+                                                    src="images/detail/store-tel.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="list">
+                                        <div class="img"><img src="images/detail/store-left-05.png" alt=""></div>
+                                        <div class="title clearfix">
+                                            <div class="left fl">
+                                                <p class="p1">万表城市体验店-宝鸡</p>
+                                                <p class="p2">陕西宝鸡渭滨区陕西宝鸡渭滨区 高新区零号路万表全球名表体验中心（原十三行）</p>
+                                            </div> <a class="right fr phone" href="tel:0917-8885839,0917-3376862"><img
+                                                    src="images/detail/store-tel.png" alt=""></a>
+
+                                        </div>
+                                    </div>
+                                    <div class="list">
+                                        <div class="img"><img src="images/detail/store-left-06.png" alt=""></div>
+                                        <div class="title clearfix">
+                                            <div class="left fl">
+                                                <p class="p1">万表城市体验店-南京</p>
+                                                <p class="p2">江苏南京秦淮区江苏省南京市秦淮区淮海路2-2临（中央商城1号门对面）</p>
+                                            </div> <a class="right fr phone" href="tel:025-57726662"><img
+                                                    src="images/detail/store-tel.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div> <a href="/o2o/index2/" class="bottom">查看更多 &gt;</a>
+                            </li>
+                            <li class="store-2">
+                                <div class="banner">
+                                    <div class="swiper-container swiper-container-store">
+                                        <div class="swiper-wrapper">
+                                            <a class="swiper-slide" href="#"><img src="images/detail/store-right-01.jpg"
+                                                    alt=""></a>
+                                            <!-- <a class="swiper-slide" href="#"><img src="images/detail/store-right-01.jpg" alt=""></a> -->
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                                <div class="content"> <a class="list clearfix" href="/mingjiang/shop/detail/506">
+                                        <div class="left fl">
+                                            <p class="p1">广诚表行总部（珠海）</p>
+                                            <p class="p3 clearfix storeStars" data-index="5"><span
+                                                    class="fl"></span><span class="fl"></span><span
+                                                    class="fl"></span><span class="fl"></span><span class="fl"></span>
+                                            </p>
+                                            <p class="p2">广东省珠海市香洲区柠溪路338号太和商务中心8楼8A室广诚表行</p>
+                                        </div>
+                                        <div class="right fr h">500m</div>
+                                    </a> <a class="list clearfix" href="/mingjiang/shop/detail/815">
+                                        <div class="left fl">
+                                            <p class="p1">万表名匠维修总部（广州）</p>
+                                            <p class="p3 clearfix storeStars" data-index="5"><span
+                                                    class="fl"></span><span class="fl"></span><span
+                                                    class="fl"></span><span class="fl"></span><span class="fl"></span>
+                                            </p>
+                                            <p class="p2">广州市番禺区大石街番禺大道北60-1号</p>
+                                        </div>
+                                        <div class="right fr h">500m</div>
+                                    </a> <a class="list clearfix" href="/mingjiang/shop/detail/816">
+                                        <div class="left fl">
+                                            <p class="p1">重庆美达万表体验店</p>
+                                            <p class="p3 clearfix storeStars" data-index="5"><span
+                                                    class="fl"></span><span class="fl"></span><span
+                                                    class="fl"></span><span class="fl"></span><span class="fl"></span>
+                                            </p>
+                                            <p class="p2">重庆市渝中区邹容路50号半岛国际25楼</p>
+                                        </div>
+                                        <div class="right fr h">500m</div>
+                                    </a> <a class="list clearfix" href="/mingjiang/shop/detail/817">
+                                        <div class="left fl">
+                                            <p class="p1">福建万国名表维修中心</p>
+                                            <p class="p3 clearfix storeStars" data-index="5"><span
+                                                    class="fl"></span><span class="fl"></span><span
+                                                    class="fl"></span><span class="fl"></span><span class="fl"></span>
+                                            </p>
+                                            <p class="p2">福建省龙岩市新罗区商务运营中心F幢1802</p>
+                                        </div>
+                                        <div class="right fr h">500m</div>
+                                    </a> <a class="list clearfix" href="/mingjiang/shop/detail/826">
+                                        <div class="left fl">
+                                            <p class="p1">田洪才钟表维修1店</p>
+                                            <p class="p3 clearfix storeStars" data-index="5"><span
+                                                    class="fl"></span><span class="fl"></span><span
+                                                    class="fl"></span><span class="fl"></span><span class="fl"></span>
+                                            </p>
+                                            <p class="p2">湖北省襄阳市樊城区丹江路18号</p>
+                                        </div>
+                                        <div class="right fr h">500m</div>
+                                    </a> <a class="list clearfix" href="/mingjiang/shop/detail/827">
+                                        <div class="left fl">
+                                            <p class="p1">国朝钟表技术（深圳）有限公司</p>
+                                            <p class="p3 clearfix storeStars" data-index="5"><span
+                                                    class="fl"></span><span class="fl"></span><span
+                                                    class="fl"></span><span class="fl"></span><span class="fl"></span>
+                                            </p>
+                                            <p class="p2">深圳市龙岗区布吉街道吉华路268文化创意产业园C栋101</p>
+                                        </div>
+                                        <div class="right fr h">500m</div>
+                                    </a> <a class="list clearfix" href="/mingjiang/shop/detail/828">
+                                        <div class="left fl">
+                                            <p class="p1">高斌钟表4S店</p>
+                                            <p class="p3 clearfix storeStars" data-index="5"><span
+                                                    class="fl"></span><span class="fl"></span><span
+                                                    class="fl"></span><span class="fl"></span><span class="fl"></span>
+                                            </p>
+                                            <p class="p2">福建省厦门市思明区禾祥西路560号古龙商场</p>
+                                        </div>
+                                        <div class="right fr h">500m</div>
+                                    </a> <a class="list clearfix" href="/mingjiang/shop/detail/831">
+                                        <div class="left fl">
+                                            <p class="p1">贵阳表修堂钟表维修</p>
+                                            <p class="p3 clearfix storeStars" data-index="5"><span
+                                                    class="fl"></span><span class="fl"></span><span
+                                                    class="fl"></span><span class="fl"></span><span class="fl"></span>
+                                            </p>
+                                            <p class="p2">贵阳云岩区河西路1号国贸大厦20楼1号</p>
+                                        </div>
+                                        <div class="right fr h">500m</div>
+                                    </a> <a class="list clearfix" href="/mingjiang/shop/detail/836">
+                                        <div class="left fl">
+                                            <p class="p1">广西南宁吾悦广场店-广诚表行</p>
+                                            <p class="p3 clearfix storeStars" data-index="5"><span
+                                                    class="fl"></span><span class="fl"></span><span
+                                                    class="fl"></span><span class="fl"></span><span class="fl"></span>
+                                            </p>
+                                            <p class="p2">广西南宁市兴宁区金川路7号吾悦广场1066店铺一楼钟表柜</p>
+                                        </div>
+                                        <div class="right fr h">500m</div>
+                                    </a> <a class="list clearfix" href="/mingjiang/shop/detail/837">
+                                        <div class="left fl">
+                                            <p class="p1">珠海免税店-广诚表行</p>
+                                            <p class="p3 clearfix storeStars" data-index="5"><span
+                                                    class="fl"></span><span class="fl"></span><span
+                                                    class="fl"></span><span class="fl"></span><span class="fl"></span>
+                                            </p>
+                                            <p class="p2">广东省珠海市吉大免税商场一楼广诚名表维修中心</p>
+                                        </div>
+                                        <div class="right fr h">500m</div>
+                                    </a> </div> <a href="/mingjiang/shop/query/" class="bottom">查看更多 &gt;</a>
+                            </li>
+                        </div>
+                    </div>
+                    <!-- 门店单元结束 -->
+
+
+
+                    <!--  评论ejs模板开始  -->
+                    <script type="text/template" id="evaluateMock">
+                        <% evaluate.list.forEach(function(item){%>
+                        <div class="evaluate_content">
+                            <div class="evaluate_content_a clearfix">
+                                <% if(item.head){ %>
+                                    <div class="evaluate_content_a_head fl">
+                                        <img src="<%=item.head%>" alt="">
+                                    </div>
+                                <%}else{%>
+                                    <div class="evaluate_content_a_head icon-a-goods-head fl"></div>
+                                <%}%>
+                                <div class="evaluate_content_a_name fl"><%=item.name%></div>
+                                <% if(item.vip==0){ %>
+                                    <div class="evaluate_content_grade fl" style="background-color:#FFBF80">金卡会员</div>
+                                <%}else if(item.vip==1){%>
+                                    <div class="evaluate_content_grade fl" style="background-color:#CCCCCC">银卡会员</div>
+                                <%}else if(item.vip==2){%>
+                                    <div class="evaluate_content_grade fl" style="background-color:#AAC2F2">钻石会员</div>
+                                <%}%>
+                                <div class="evaluate_content_a_ico fr" data-index="<%=item.wuxing%>">
+                                    <% for (var i=0;i< item.wuxing;i++){%>
+                                    <span class="icon-a-goods-wuxing"></span>
+                                    <% } %>
+                                </div>
+                            </div>
+                            <div class="evaluate_content_b"><%=item.txt%></div>
+                            <div class="evaluate_content_c clearfix load-evaluate">
+                                <% for (var i=0;i< item.img.length;i++){%>
+                                <li data-index="">
+                                    <img src="<%=item.img[i]%>" alt="">
+                                </li>
+                                <% } %>
+                            </div>
+                            <div class="evaluate_content_d clearfix"> 
+                                <span class="fl"><%=item.date%></span>
+                                <% if(item.style){ %>
+                                <span class="fl"><%=item.style%></span> 
+                                <%}%>
+                                <span class="fr"><%=item.imgNum%></span> 
+                            </div>
+                        </div>
+                        <% }) %>
+                    </script>
+                    <!--  评论ejs模板结束  -->
+                </div>
+            </div>
+        </section>
+        <!--主体内容结束  -->
+
+        <!-- 各种弹窗开始 -->
+        <div class="tc_container tc_container_choice">
+            <div class="tc_bg"></div>
+            <div class="tc_content">
+                <div class="choice_content">
+                    <div class="choice_content_a">
+                        <div class="choice_content-a_img">
+                            <img src="images/detail/small-pro-01.jpg" alt=""> </div>
+                        <div class="choice_content-a_title">
+                            <div class="choice_content-a_title_price">￥1979</div>
+                            <div class="choice_content-a_title_bian" data-index="70745"> <span>商品编号：70745</span> </div>
+                        </div>
+                        <div class="choice_content-a_ico icon-a-close01"></div>
+                    </div>
+                    <div class="choice_content_b">
+                        <div class="choice_content_b_title">款式</div>
+                        <div class="choice_content_b_content">
+                            <span><a href="javascript:;">黑色 牛皮</a></span>
+                            <!-- <span><a href="javascript:;">真皮 黑色 牛皮</a></span> -->
+                            <span class="colour"><a href="javascript:;">真皮 白色 牛皮</a></span>
+                            <span><a href="javascript:;"> 红色 </a></span> </div>
+                        <div class="choice_content_b_num">
+                            <div class="choice_content_b_num_a">购买数量</div>
+                            <div class="choice_content_b_num_b">
+                                <span class="fl reduce boder_colour" data-type="subtract">-</span>
+                                <input type="text" value="1" class="cont fl" id="count" data-realcount="0"
+                                    data-virtualcount="88" onkeyup="this.value=this.value.replace(/[^\d]/g,'') "
+                                    onafterpaste="this.value=this.value.replace(/[^\d]/g,'')">
+                                <span class="fl plus" data-type="add" data-saletype="1">+</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="detail_footer">
+                    <div class="detail_footer_content">
+                        <li>
+                            <p class="detail_footer_ico icon-a-ntalk-goods CUSTOMER-SERVICE"
+                                service-code="wx_1000_1515726307656"></p>
+                            <p class="p2">客服</p>
+                        </li>
+                        <li><a class="detail_footer_ico icon-d-goodscart"><i class="red">4</i></a> <a class="p2"
+                                href="/cart/">购物车</a></li>
+                        <li class="detail_footer_purchase js_purchase">立即购买</li>
+                        <li class="detail_footer_cart js_cart">加入购物车</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tc_container tc_container_fq">
+            <div class="tc_bg"></div>
+            <div class="tc_content">
+                <div class="byStages">
+                    <div class="title"><i class="icon-d-share-close tc_button_b"></i></div>
+                    <div class="content">
+                        <div class="title">
+                            <p class="p1">信用卡分期付款服务</p>
+                            <p class="p2">部分银行免息免手续费分期，详情咨询客服</p>
+                        </div>
+                        <div class="icon clearfix">
+                            <li class="fl">
+                                <p class="ico icon-d-jsyh"></p>
+                                <p class="txt">建设银行</p>
+                            </li>
+                            <li class="fl">
+                                <p class="ico icon-d-zsyh"></p>
+                                <p class="txt">招商银行</p>
+                            </li>
+                            <li class="fl">
+                                <p class="ico icon-d-zgyh"></p>
+                                <p class="txt">中国银行</p>
+                            </li>
+                            <li class="fl">
+                                <p class="ico icon-d-gsyh"></p>
+                                <p class="txt">工商银行</p>
+                            </li>
+                            <li class="fl">
+                                <p class="ico icon-d-jtyh"></p>
+                                <p class="txt">交通银行</p>
+                            </li>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <div class="fl button-b CUSTOMER-SERVICE">咨询客服</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tc_container tc_container_rq">
+            <div class="tc_bg"></div>
+            <div class="tc_content tc_bottom">
+                <div class="purchase_title"> <span class="fl">人气搭配</span><i class="icon-a-close03 fr"></i></div>
+                <div class="purchase_cont">
+                    <ul>
+                        <li data-goods-code="70745"><span class="fl choose"></span>
+                            <p class="p1 fl"><img
+                                    src="//image7.wbiao.co/shop/121382c5d7ee4bcfbdb3061eb3f0ca03.jpg?x-oss-process=image/resize,m_pad,w_80,h_80,color_ffffff"
+                                    alt=""></p>
+                            <p class="p2"> <span class="sp1 esp2">优立时unizeit-歌德系列 BC001-SL100-00BN 机械男表</span> <span
+                                    class="sp2">￥<b>1979</b></span></p>
+                        </li>
+                        <li data-goods-code="70808" data-ware-code="1_1_3_2" data-version="10"><span
+                                class="fl choose icon-a-mj_yixuan icon-a-white-tik"></span><a href="/goods/70808">
+                                <p class="p1 fl"> <img
+                                        src="//image7.wbiao.co/shop/6ad1267c6907474f855e6675b27f3fba.jpg?x-oss-process=image/resize,m_pad,w_78,h_78,color_ffffff"
+                                        alt=""> <span>优惠￥<em>55</em></span></p>
+                                <p class="p2"> <span class="sp1 esp2">万表名匠1年延保服务-手表维修保养售后</span> <span
+                                        class="sp2">￥<b>83</b> <em>￥138</em></span></p>
+                            </a></li>
+                        <li data-goods-code="70809" data-ware-code="1_1_3_2" data-version="10"><span
+                                class="fl choose icon-a-mj_yixuan icon-a-white-tik"></span><a href="/goods/70809">
+                                <p class="p1 fl"> <img
+                                        src="//image7.wbiao.co/shop/a0733d95ae334bbca632660c2888ab76.jpg?x-oss-process=image/resize,m_pad,w_78,h_78,color_ffffff"
+                                        alt=""> <span>优惠￥<em>75</em></span></p>
+                                <p class="p2"> <span class="sp1 esp2">万表名匠3年延保服务-手表维修保养售后</span> <span
+                                        class="sp2">￥<b>113</b> <em>￥188</em></span></p>
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="purchase_footer"> <span class="sp1 fl">组合价:<em>0</em></span> <span
+                        class="sp2 fl">已省￥<em>0</em></span> <span class="sp3 js_purchase popularity">立即购买</span></div>
+            </div>
+        </div>
+        <!-- <div class='mui-toast-container mui-active'><div class='mui-toast-message'>取消成功</div></div> -->
+        <!-- 各种弹窗结束 -->
+
+        <!-- 底部固定开始 -->
+        <div class="footOuter">
+            <div class="detail_footer">
+                <div class="detail_footer_content">
+                    <li>
+                        <p class="clickService detail_footer_ico icon-a-ntalk-goods CUSTOMER-SERVICE"></p>
+                        <p class="p2">客服</p>
+                    </li>
+                    <li>
+                        <a class="detail_footer_ico icon-d-goodscart"><i style="display: none;"></i></a>
+                        <a class="p2" href="/cart/">购物车</a>
+                    </li>
+                    <li class="detail_footer_purchase js_purchase">立即购买</li>
+                    <li class="detail_footer_cart js_cart">加入购物车</li>
+                </div>
+            </div>
+        </div>
+        <!-- 底部固定结束 -->
+
+    </main>
+
+</body>
+<script src="js/util.js"></script>
+<script src="js/ejs.js"></script>
+<script src="js/iscroll.js"></script>
+<script src="js/zepto.min.js"></script>
+<script src="js/fx.js"></script>
+<script src="js/fx_methods.js"></script>
+<script src="js/fastclick.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/base.js"></script>
+<script src="js/mock.js"></script>
+<script src="js/detail.js"></script>
+
+</html>

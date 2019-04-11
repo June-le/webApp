@@ -1,0 +1,108 @@
+.header{
+    width: 7.5rem;
+    height: 1rem;
+    display: -webkit-flex;
+    display: flex;
+}
+.header .logo{
+    width: 1.42rem;
+    height: .88rem;
+    display: flex;
+}
+.header .logo img{
+    width: .96rem;
+    margin: 0 auto;
+    margin-top: .2rem;
+    height: .48rem;
+}
+.header .sea{
+    display: flex;
+    width: 5.18rem;
+    height: .56rem;
+    margin-top: .2rem;
+    position: relative;
+}
+.header .sea .search{
+    display: block;
+    width: 100%;
+    height: .52rem;
+    line-height: .52rem;
+    background: #f1f1f1;
+    border-radius: .26rem;
+    font-size: .24rem;
+    color: #999;
+    padding-left: .64rem;
+    outline: 0;
+    border: 0;
+}
+.header .sea .icon-fang{
+    position: absolute;
+    top: .16rem;
+    left: .22rem;
+    display: block;
+    background-image: url(../images/a.png);
+    background-position: -2.76rem -8.35rem;
+    background-size: 8.86rem;
+    width: .24rem;
+    height: .24rem;
+}
+.header .keFu{
+    width: .88rem;
+    height: .88rem;
+}
+.header .keFu a{
+    display: block;
+    background-image: url(../images/d.png);
+    background-position: 0 -3.73rem;
+    background-size: 8.57rem;
+    width: .88rem;
+    height: .88rem;
+}
+
+.lunbo .swiper-container img{
+    width: 7.5rem;
+    height: 5rem;
+}
+.lunbo .swiper-container .swiper-pagination-bullet{
+    background-color: #fff;
+    opacity: 1;
+}
+.lunbo .swiper-container .swiper-pagination-bullet-active{
+    width: .4rem;
+    background-color: #ccaa7a;
+    border-radius: .1rem;
+}
+.toolbar{
+    width: 100%;
+    padding: .24rem 0;
+    display: flex;
+    background-image: linear-gradient(90deg,#fff 0,#f5f5f5 100%);
+    box-shadow: inset 0 0 0 0 #ddd;
+
+}
+.toolbar a {
+    width: 25%;
+    padding: .14rem 0;
+    display: block;
+}
+.toolbar a .bar-img {
+    width: .88rem;
+    height: .88rem;
+    margin: 0 auto;
+}
+.toolbar a .bar-img img{
+    width: .88rem;
+    height: .88rem;
+}
+.toolbar a .bar-txt {
+    font-size: .22rem;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: .22rem;
+    margin-top: .1rem;
+}
+.new img{
+    width: 7.5rem;
+    height: 2.72rem;
+}

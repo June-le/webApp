@@ -1,0 +1,318 @@
+body {
+    background: #f4f4f4!important;
+}
+header{
+    width: 7.5rem;
+    height: .88rem;
+    line-height: .88rem;
+    background: #fff;
+    border-bottom: .02rem solid #ddd;
+    border-bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+header a{
+    display: block;
+    background-image: url(../images/mingjiang/d.png);
+    background-position: -6.14rem -6.18rem;
+    background-size: 9.26rem;
+    width: .88rem;
+    height: .88rem;
+}
+
+main {
+    display: block;
+    overflow: hidden!important;
+    width: 7.5rem;
+}
+main .W_main{
+    padding-bottom: 1rem;
+}
+main .W_main .user_header{
+    background: #fff;
+    margin-bottom: .2rem;
+}
+.user_header .user_info {
+    height: 2rem;
+    padding: .32rem;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+}
+.user_info .avatar {
+    width: 1.36rem;
+    height: 1.36rem;
+    margin-right: .44rem;
+    border-radius: 50%;
+    position: absolute;
+    left: .32rem;
+    top: .32rem;
+    overflow: hidden;
+}
+.icon-d-touxiang {
+    display: block;
+    background-image: url(../images/mingjiang/d.png);
+    background-position: 0 -2.32rem;
+    background-size: 9.26rem;
+    width: 1.36rem;
+    height: 1.36rem;
+}
+.user_info .user_name {
+    margin-top: .26rem;
+    font-size:.4rem;
+    color: #000;
+    line-height: .4rem;
+    padding-left: 1.88rem;
+}
+.user_info .user_sign {
+    background: #eebb83;
+    border-radius:.08rem;
+    width: 1.68rem;
+    font-size: .24rem;
+    color: #fff;
+    line-height: .38rem;
+    height: .38rem;
+    text-align: center;
+    margin-left: 1.88rem;
+    margin-top: .14rem;
+}
+
+.user_header .user_own {
+    height: 1.8rem;
+    box-sizing: border-box;
+    padding: .32rem;
+}
+.user_own .own_list {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+}
+.user_own .own_list .own_item {
+    width: 25%;
+    height: 100%;
+    text-align: center;
+}
+.own_list .own_item a {
+    display: block;
+    height: 100%;
+}
+.own_list .own_item a p:nth-child(1) {
+    margin: .18rem 0;
+    font-size: .36rem;
+    color: #1a1a1a;
+    line-height: .36rem;
+    font-weight: 700;
+}
+.own_list .own_item a p:nth-child(2) {
+    font-size: .24rem;
+    color: #333;
+    line-height: .24rem;
+}
+
+.W_main .user_order {
+    padding: 0 .32rem;
+    background: #fff;
+    margin-bottom: .2rem;
+}
+.user_order .order_top {
+    height: .96rem;
+    line-height: .96rem;
+    font-size: .28rem;
+    color: #333;
+    border-bottom: .02rem solid #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+}
+.order_top a {
+    height: .96rem;
+    line-height: .96rem;
+    font-size: .24rem;
+    color: #999;
+    padding-right: .16rem;
+    position: relative;
+}
+.order_top a i {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -.16rem;
+}
+.icon-d-arrow01 {
+    display: block;
+    background-image: url(../images/mingjiang/d.png);
+    background-position: -3.48rem -1.42rem;
+    background-size: 9.26rem;
+    width: .16rem;
+    height: .32rem;
+}
+.order_content {
+    margin-top: .32rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+}
+.order_content a {
+    width: 25%;
+    height: 1.3rem;
+    padding: 0 .16rem;
+    margin-bottom: .32rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+.order_content a i {
+    display: inline-block;
+    height: .64rem;
+    width: .64rem;
+    margin-bottom: .16rem;
+    background-image: url(../images/mingjiang/d.png);
+    background-size: 9.26rem;
+}
+.order_content a p {
+    font-size: .24rem;
+    color: #333;
+    line-height: .22rem;
+}
+/* 维修图标 */
+.icon-d-jc {
+    background-position: -3.07rem -7.24rem;
+}
+.icon-d-qr {
+    background-position: -8.62rem -1.48rem;
+}
+.icon-d-fk {
+    background-position: -3.81rem -7.24rem;
+}
+.icon-d-zt {
+    background-position: -5.29rem -7.24rem;
+}
+/* 商品订单图标 */
+.icon-d-fk01 {
+    background-position: -1.59rem -7.24rem;
+}
+.icon-d-fh01 {
+    background-position: -4.55rem -7.24rem;
+}
+.icon-d-sh01 {
+    background-position: -6.77rem -7.24rem;
+}
+.icon-d-pj01 {
+    background-position: -7.51rem -7.24rem;
+}
+/* 其他服务图标 */
+.icon-d-hs {
+    background-position: -8.62rem -.74rem;
+}
+.icon-d-jp {
+    background-position: -6.03rem -7.24rem;
+}
+.icon-d-jd {
+    background-position: -8.62rem 0;
+}
+
+/* 底部 */
+.W_footer {
+    width: 7.5rem;
+    height: .98rem;
+    border-top: .02rem solid #f1f1f1;
+    position: fixed;
+    bottom: 0;
+    z-index: 997;
+    background: #fff;
+    display: flex;
+}
+.W_footer .on {
+    color: #333;
+}
+.W_footer a {
+    width: 20%;
+    padding-top: .1rem;
+    color: #666;
+    position: relative;
+    display: block;
+}
+.W_footer>.on>.icon-d-home-none {
+    display: block;
+    width: .44rem;
+    height: .44rem;
+    background: url(../images/mingjiang/icon-d-home-on.png) no-repeat;
+    background-size: contain;
+}
+.W_footer a>.W_footer_img {
+    margin: 0 auto;
+    margin-bottom: .06rem;
+}
+.icon-d-home-none {
+    display: block;
+    background-image: url(../images/mingjiang/d.png);
+    background-position: -4.02rem -8.05rem;
+    background-size:9.26rem;
+    width: .44rem;
+    height: .44rem;
+}
+.W_footer a>.W_footer_title {
+    width: 80%;
+    margin: .12rem auto 0;
+    font-size: .2rem;
+    line-height: .28rem;
+    text-align: center;
+    color: #999;
+}
+.W_footer>.on>.icon-d-shop-none {
+    display: block;
+    width: .44rem;
+    height: .44rem;
+    background: url(../images/mingjiang/icon-d-shop-on.png) no-repeat;
+    background-size: contain;
+}
+.icon-d-shop-none {
+    display: block;
+    background-image: url(../images/mingjiang/d.png);
+    background-position: -3.48rem -8.05rem;
+    background-size:9.26rem;
+    width: .44rem;
+    height: .44rem;
+}
+.W_footer a>.W_footer_img.icon-d-service {
+    margin-top: -.5rem;
+}
+.icon-d-service {
+    display: block;
+    background-image: url(../images/mingjiang/d.png);
+    background-position: -6.54rem 0;
+    background-size:9.26rem;
+    width: 1rem;
+    height: 1rem;
+}
+.W_footer a>.W_footer_title.services {
+    margin: .08rem auto 0;
+}
+.W_footer>.on>.icon-d-find-none {
+    display: block;
+    width: .44rem;
+    height: .44rem;
+    background: url(../images/mingjiang/icon-d-find-on.png) no-repeat;
+    background-size: contain;
+}
+.icon-d-find-none {
+    display: block;
+    background-image: url(../images/mingjiang/d.png);
+    background-position: -5.1rem -8.05rem;
+    background-size:9.26rem;
+    width: .44rem;
+    height: .44rem;
+}
+.W_footer>.on>.icon-d-mine-none {
+    display: block;
+    width: .44rem;
+    height: .44rem;
+    background: url(../images/mingjiang/icon-d-mine-on.png) no-repeat;
+    background-size: contain;
+}
+.icon-d-mine-none {
+    display: block;
+    background-image: url(../images/mingjiang/d.png);
+    background-position: -8.62rem -7.48rem;
+    background-size:9.26rem;
+    width: .44rem;
+    height: .44rem;
+}

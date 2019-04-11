@@ -1,0 +1,44 @@
+var bannerSwiper = new Swiper('.banner', {
+    autoplay: true,//可选选项，自动滑动
+    loop: true
+})
+var tab = (function () {
+    function nav() {
+        $('.wb_nav ul').on('click', 'li', function (e) {
+            e.preventDefault();
+            $(this).children('a').addClass('on').parent().siblings().children('a').removeClass('on');
+            $('.wrap').children().eq($(this).index()).show().siblings().hide();
+        })
+    }
+    return {
+        nav: nav
+    }
+})();
+tab.nav();
+var scro = (function(){
+    function scroll(){
+        $(window).scroll(function () {
+            // console.log($(document).scrollTop());
+            if ($(document).scrollTop() >= 100) {
+                $('.W_pt_shopBottom').addClass('on');
+            } else {
+                $('.W_pt_shopBottom').removeClass('on');
+            }
+        })
+        $(window).scroll(function () {
+
+
+            
+            // console.log($(document).scrollTop(),$('.wb_shop_box').get(0).style.marginTop);
+            if ($(document).scrollTop() >= 200) {
+                $('.wb_shop_box').stop(true,true).animate({marginTop:'-2.2rem'},300);
+            } else {
+                $('.wb_shop_box').stop(true,true).animate({marginTop:0},300);
+            }
+        })
+    }
+    return {
+        scroll: scroll
+    }
+})();
+scro.scroll();

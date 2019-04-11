@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/base.js"></script>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/touch.js"></script>
+    <script src="js/fastclick.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/shopcar.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-box">
+            <div class="car-txt">购物车</div>
+            <div class="car-right">
+                <p class="rg-p1">编辑全部</p>
+                <p class="rg-p2 h">完成</p>
+            </div>
+        </div>
+
+    </header>
+    <main class="wrapper1">
+        <div class="W-cart">
+            <div class="cart-content">
+
+            </div>
+        </div>
+    </main>
+    <div class="login-tips">
+        登录后购物车的商品将保存到您账号中，
+        <a href="Login.html">现在登录</a>
+    </div>
+    <div class="main1">
+        <div class="M-cart">
+            <div class="empty-status">
+                <div class="icon icon-a-empty-cart"></div>
+                <p>购物车是空的</p>
+                <div class="btns-wrap">
+                    <div class="btns"> <a href="#">逛逛首页</a></div>
+                    <div class="btns"> <a href="#">查看收藏</a></div>
+                </div>
+            </div>
+            <!-- <div class="cart-content"></div> -->
+        </div>
+    </div>
+    <div class="W-cart-footer">
+        <div class="footer-bar footer-bar-normal">
+            <div class="left">
+                <span class="cart-tik">
+                    <span class="normal"></span>
+                    <span class="icon-a-red-tik h"> </span>
+                    <i>全选</i>
+                </span>
+                <div class="detail">
+                    <p>总计:¥<span id="payableAmount">0</span></p>
+                    <p>总额:¥<span id="goodsAmount">0</span></p>
+                </div>
+            </div>
+            <button class="submit-btn">结算</button>
+        </div>
+        <section class="W_footer" id="W_footer">
+            <a id="index_home" href="index.html">
+                <div class="W_footer_img icon-a-home01"></div>
+                <div class="W_footer_title">首页</div>
+            </a>
+            <a id="index_find" href="ybsjIndex.html">
+                <div class="W_footer_img icon-a-discover01"></div>
+                <div class="W_footer_title">资讯</div>
+            </a>
+            <a id="index_classify" href="html/xuan.html">
+                <div class="W_footer_img icon-a-sort01"></div>
+                <div class="W_footer_title">选表</div>
+            </a>
+            <a id="index_cart" href="shopcar.html" class="on">
+                <div class="W_footer_img icon-a-cart01"></div>
+                <div class="W_footer_title">购物车</div>
+                <div class="W_footer_tag W_footer_cart_badge"></div>
+            </a>
+            <a id="index_member" href="center.html">
+                <div class="W_footer_img icon-a-my01"></div>
+                <div class="W_footer_title">我的</div>
+            </a>
+        </section>
+    </div>
+    <script type="text/template" id="tpl">
+        <% var arr = [] %>
+       <% for (var i = 0; i < list.length; i++) { %>
+           <% if(arr.indexOf(list[i].dianpu)==-1){ %>
+               <% arr.push(list[i].dianpu) %>
+           <% } %>
+       <% } %>
+        <% arr.forEach(function(val,index){ %>
+            <div class="shop-blocks">
+                    <div class="shop-title">
+                        <p class="shop">
+                            <span class="shop-<%=index%>"><%=val%></span>
+                            <a href="javascript:void(0);" class="tips-r">领券</a>
+                        </p>
+                        <span class="cart-tik">
+                            <span class="normal"></span>
+                            <span class="icon-a-red-tik h"></span>
+                        </span>
+                    </div>
+                   
+                      <%  list.forEach(function(val2,index2){ %>
+                          <%  if(val2.dianpu==val){ %>   
+                    <div class="goods" data-goodsid="<%=val2.Id%>">
+                        <div class="lines">
+                            <div class="slide-wrap">
+                                <div class="slide-scroller">
+                                    <div class="inner"><a href="#">
+                                            <div class="img"><img src="<%=val2.img%>"></div>
+                                            <div class="desc">
+                                                <p class="words"><%=val2.name%></p>
+                                                <p class="specifications">真皮 蓝色 图案 牛皮</p>
+                                                <p class="bottom"><span class="price"><i>¥</i><i class="wbiaoPrice"><%=val2.price%></i><i>¥<%=val2.oldprice%></i></span><span
+                                                        class="quatity">x<span><%=val2.num%></span></span></p>
+                                            </div>
+                                        </a>
+                                        <div class="editor h">
+                                            <div class="calc"><span class="minus calc-btns">-</span>
+                                                <div class="val"><%=val2.num%></div><span class="plus calc-btns">+</span>
+                                            </div><button class="del">删除</button>
+                                        </div>
+                                    </div>
+                                    <div class="btns">
+                                        <p class="bs to-collection"><span>移入收藏</span></p>
+                                        <p class="bs to-delete"><span>删除</span></p>
+                                    </div><span class="cart-tik"><span class="normal"></span><span class="icon-a-red-tik h"></span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              <%  } %>
+           <% }) %>
+
+                </div>
+      <% }) %>
+   </script>
+
+</body>
+<script src="js/util.js"></script>
+<script src="js/ejs.js"></script>
+<script src="js/iscroll-probe.js"></script>
+<script src="js/shopcar.js"></script>
+
+</html>

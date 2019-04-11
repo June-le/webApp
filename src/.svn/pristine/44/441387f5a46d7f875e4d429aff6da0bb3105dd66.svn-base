@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 100px;
+}
+main{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+main img{
+    width: 100%;
+}
+main .big-Forum{
+    background: url(../image/jixie.jpg) no-repeat 0 0;
+    background-size: contain;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+.big-Forum .return{
+    padding: .4rem 0 0 .4rem;
+    display: block;
+    width: .48rem;
+    height: .48rem;
+}
+.big-Forum .return img{
+    display: block;
+}
+
+/* 头部开始 */
+main .title{
+    width: 7.5rem;
+    text-align: center;
+    padding: .2rem 0;
+}
+.title .title-a{
+    font-size: .72rem;
+    color: #d1af67;
+}
+.title .title-b{
+    font-size: .24rem;
+    color: #333;
+    margin-top: .24rem;
+}
+.title .title-c{
+    width: .9rem;
+    height: .02rem;
+    background-color: #333;
+    margin: .24rem auto 0 auto;
+}
+/* 头部结束 */
+
+/* 课堂开始 */
+.big-Forum .content{
+    padding: .4rem .56rem 0 .56rem;
+}
+.content a{
+    padding-bottom: .4rem;
+    display: block;
+}
+.content a .img{
+    position: relative;
+    height: 3.19rem;
+}
+.content a .img img{
+    border-top-right-radius: .06rem;
+    border-top-left-radius: .06rem;
+}
+.content a .img .tag{
+    position: absolute;
+    top: 0;
+    left: .24rem;
+    width: 1.2rem;
+    height: .38rem;
+    background-image: radial-gradient(100% 100%,#6c6c6c 0,#333 100%);
+    text-align: center;
+    font-size: .2rem;
+    color: #d1af67;
+    line-height: .38rem;
+}
+.content a .txt{
+    font-size: .32rem;
+    background-color: #fff;
+    color: #333;
+    padding: .22rem 0;
+    line-height: .44rem;
+    text-align: center;
+}
+/* 课堂结束 */

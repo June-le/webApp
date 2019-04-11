@@ -1,0 +1,547 @@
+.header{
+    width: 7.5rem;
+    height: .88rem;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+.header .add{
+    height: .28rem;
+    width: 2.28rem;
+    padding-left: .32rem;
+}
+.header .add a{
+    display: flex;
+    align-items: center;
+}
+.header .add .icon-d-position {
+    display: block;
+    background-image: url(../images/mingjiang/d.png);
+    background-position: -3.32rem -8.63rem;
+    background-size: 9.26rem;
+    width: .28rem;
+    height: .28rem;
+}
+.header .add span{
+    font-size: .28rem;
+    color: #666;
+    padding-left: .2rem;
+    line-height: .28rem;
+    /* padding-right: .15rem; */
+    height: .28rem;
+    width: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
+}
+.header .add .icon-d-home_arrow {
+    display: block;
+    background-image: url(../images/mingjiang/d.png);
+    background-position: -2.48rem -3.42rem;
+    background-size: 9.26rem;
+    width: .2rem;
+    height: .2rem;
+}
+.header .logo{
+    display: block;
+    background-image: url(../images/mingjiang/d.png);
+    background-position: -1.78rem -1.42rem;
+    background-size: 9.26rem;
+    width: 1.6rem;
+    height: .34rem;
+    margin-left: .8rem;
+}
+.swiper-container {
+    width: 7.5rem;
+    height: 3.24rem;
+    position: relative;
+   
+}
+.swiper-container .swiper-wrapper .swiper-slide {
+    height: 3rem;
+    overflow: hidden;
+    box-shadow: 0 .1rem .08rem 0 rgba(31,31,31,.15);
+    padding: 0 .32rem;
+    box-sizing: border-box;
+}
+.swiper-container .ban img,.ban1 img{
+    width: 6.86rem;
+    height: 3rem;
+}
+.swiper-container .swiper-pagination.swiper-pagination-bullets{
+    height: .06rem;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.swiper-pagination-bullet {
+    background: #d8d8d8;
+    border-radius: .03rem;
+    width: .32rem;
+    height: .06rem;
+    margin-right:.08rem;
+    
+}
+.swiper-container .swiper-pagination-bullet-active{
+    background-color: #ccaa7a;
+}
+.W_grasp {
+    width: 7.5rem;
+    height: 4.54rem;
+    padding: .4rem .32rem;
+    background: #fff;
+    border-bottom: .24rem solid rgba(250,250,250);
+    margin-top: .3rem;
+}
+.W_grasp .W_service-cont {
+    height: 1.62rem;
+    overflow: hidden;
+    display: flex;
+}
+.W_grasp .W_service-cont a{
+    width: 25%;
+    display: flex;
+    flex-direction:column;
+    position: relative;
+}
+.W_service-cont a i {
+    margin: 0 auto;
+}
+.icon-d-search {
+    display: block;
+    background-image: url(../images/mingjiang/d.png);
+    background-position: 0 -6.18rem;
+    background-size: 9.26rem;
+    width: .96rem;
+    height: .96rem;
+}
+.icon-d-zxkf {
+    display: block;
+    background-image: url(../images/mingjiang/d.png);
+    background-position: -6.54rem -4.36rem;
+    background-size: 9.26rem;
+    width: .96rem;
+    height: .96rem;
+}
+.icon-d-fwzn {
+    display: block;
+    background-image: url(../images/mingjiang/d.png);
+    background-position: -3.78rem -2.72rem;
+    background-size: 9.26rem;
+    width: .96rem;
+    height: .96rem;
+}
+.icon-d-lqzx {
+    display: block;
+    background-image: url(../images/mingjiang/d.png);
+    background-position: -2.12rem -6.18rem;
+    background-size: 9.26rem;
+    width: .96rem;
+    height: .96rem;
+}
+.W_service-cont a span {
+    text-align: center;
+    display: block;
+    font-size: .28rem;
+    color: #666;
+    margin-top:.28rem;
+    white-space: nowrap;
+}
+.W_service-cont a em {
+    position: absolute;
+    right: 21%;
+    top: .12rem;
+}
+.icon-d-voucher-center {
+    display: block;
+    background-image: url(../images/mingjiang/d.png);
+    background-position: -1.78rem -1.86rem;
+    background-size: 9.26rem;
+    width: .46rem;
+    height: .28rem;
+}
+.W_grasp a.know {
+    background: url(../images/mingjiang/grasp.png) right top no-repeat;
+    background-size: auto 1.64rem;
+    display: block;
+    box-shadow: 0 .02rem .16rem 0 rgba(0,0,0,.1);
+    border-radius: .1rem;
+    height: 1.64rem;
+    margin-top: .48rem;
+    padding-left: .32rem;
+}
+.W_grasp a.know p.p1 {
+    font-size: .32rem;
+    color: #000;
+    line-height: .32rem;
+    padding-top: .46rem;
+    font-weight: 700;
+}
+.W_grasp a.know p.p1 i.icon-d-under2x {
+    display: inline-block;
+    margin-left: .06rem;
+    position: relative;
+    top: -.02rem;
+    background-image: url(../images/mingjiang/d.png);
+    background-position: -3.08rem -3.42rem;
+    background-size: 9.26rem;
+    width:.18rem;
+    height:.18rem;
+}
+.W_grasp a.know p.p2 {
+    font-size: .24rem;
+    color: #7f7f7f;
+    line-height: .28rem;
+    margin-top: .16rem;
+}
+.W_grasp a.know p.p2 em {
+    font-size: .28rem;
+    color: #ea1717;
+    line-height: .24rem;
+    margin-right: .04rem;
+}
+
+.W_service_items{
+    width: 7.5rem;
+    height: 3.6rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: .24rem solid rgba(250,250,250);
+}
+.W_service_items .title {
+    /* margin-bottom: .32rem; */
+    line-height: .8rem;
+    position: relative;
+    padding-left: .32rem;
+    font-size: .32rem;
+    color: #352d25;
+}
+.W_service_items .title span {
+    background: #cbaf94;
+    border-radius:.04rem;
+    width: .08rem;
+    height: .32rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -.16rem;
+}
+.W_service_items .swiper-container .swiper-slide{
+    width: 3.04rem;
+    height: 2.06rem;
+    margin-right: .24rem;
+    box-shadow: 0 0 0 0;
+}
+.W_service_items .swiper-container a{
+    width: 2.73rem;
+    height: 2.06rem;
+    display: flex;
+    flex-direction:column;
+}
+.W_service_items .swiper-container a p {
+    width: 2.72rem;
+    height: 1.6rem;
+    margin-bottom: .2rem;
+    overflow: hidden;
+    border-radius: .06rem;
+    position: relative;
+}
+.W_service_items .swiper-container a p img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2.72rem;
+    height: 1.64rem;
+}
+.W_service_items .swiper-container a span {
+    font-size: .28rem;
+    color: #333;
+    line-height: .28rem;
+}
+
+.W_hot_shop{
+    border-bottom: .24rem solid rgba(250,250,250);
+}
+.W_hot_shop .title {
+    /* margin-bottom: .32rem; */
+    line-height: .8rem;
+    position: relative;
+    padding-left: .32rem;
+    font-size: .32rem;
+    color: #352d25;
+}
+.W_hot_shop .title span {
+    background: #cbaf94;
+    border-radius:.04rem;
+    width: .08rem;
+    height: .32rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -.16rem;
+}
+.W_hot_shop .title a {
+    font-size: .24rem;
+    color: #c6a98c;
+    text-align: center;
+    line-height: .8rem;
+    float: right;
+    padding-right: .32rem;
+    font-weight: 400;
+}
+.W_hot_shop .W_shop{
+    width: 7.5rem;
+    height: 2.46rem;
+}
+.W_hot_shop .W_shop a {
+    padding: .4rem .82rem .4rem .32rem;
+    display: block;
+    position: relative;
+}
+.W_shop a .shop-img {
+    width: 2.14rem;
+    height: 1.68rem;
+    position: absolute;
+    left: .32rem;
+    top: .4rem;
+}
+.W_shop a .shop-img img{
+    width: 2.14rem;
+    height: 1.68rem;
+}
+.W_shop a .shop-img span {
+    position: absolute;
+    width: .8rem;
+    height: .36rem;
+    opacity: .6;
+    background: #000;
+    font-size: .2rem;
+    color: #fff;
+    line-height: .36rem;
+    text-align: center;
+    top: 0;
+    left: 0;
+    border-radius: .06rem 0 .06rem 0;
+}
+.W_shop a .shop-info {
+    width: 100%;
+    padding-left: 2.7rem;
+    box-sizing: border-box;
+}
+.W_shop a .shop-info p.p1 {
+    font-size: .32rem;
+    color: #333;
+    line-height: .32rem;
+    padding-top: .08rem;
+    font-weight: 700;
+}
+.elps1 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.W_shop a .shop-info p.p3 {
+    height: .28rem;
+    overflow: hidden;
+    margin-top: .2rem;
+}
+.W_shop a .shop-info p.p3 span {
+    background: #f0f0f0;
+    border-radius: .04rem;
+    padding: 0 .08rem;
+    display: block;
+    font-size: .2rem;
+    color: #666;
+    margin-right: .2rem;
+    float: left;
+    line-height: .28rem;
+}
+.W_shop a .shop-info p.p4 {
+    font-size: .24rem;
+    color: #666;
+    padding-top: .26rem;
+}
+
+.W_famous{
+    border-bottom: .18rem solid rgba(250,250,250);
+}
+.W_famous .title {
+    /* margin-bottom: .32rem; */
+    line-height: .8rem;
+    position: relative;
+    padding-left: .32rem;
+    font-size: .32rem;
+    color: #352d25;
+}
+.W_famous .title span {
+    background: #cbaf94;
+    border-radius:.04rem;
+    width: .08rem;
+    height: .32rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -.16rem;
+}
+.W_famous .swiper-container{
+    height: 2.46rem;
+    padding-left: .32rem;
+    padding-bottom: .4rem;
+}
+.W_famous .swiper-container .swiper-wrapper{
+    height: 2.06rem;
+}
+.W_famous .swiper-container .swiper-slide{
+    width: 1.3rem;
+    height: 2.06rem;
+    margin-right: .4rem;
+    padding: 0;
+    box-shadow: 0 0 0 0;
+}
+.W_famous .swiper-container .swiper-slide .slide-img {
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.W_famous .swiper-container .swiper-slide .slide-img span {
+    width: 100%;
+    padding-bottom: 100%;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
+.W_famous .swiper-container .swiper-slide .slide-img img {
+    width: 1.3rem;
+    height: 1.3rem;
+    
+}
+.W_famous .swiper-container .swiper-slide .slide-name {
+    font-size: .28rem;
+    color: #383838;
+    line-height: .28rem;
+    margin-top: .18rem;
+    text-align: center;
+    display: block;
+}
+.W_famous .swiper-container .swiper-slide .job-title {
+    font-size: .2rem;
+    color: #999;
+    line-height: .24rem;
+    margin-top: .1rem;
+    text-align: center;
+    display: block;
+}
+
+.W_footer {
+    width: 7.5rem;
+    height: .98rem;
+    border-top: .02rem solid #f1f1f1;
+    position: fixed;
+    bottom: 0;
+    z-index: 997;
+    background: #fff;
+    display: flex;
+}
+.W_footer .on {
+    color: #333;
+}
+.W_footer a {
+    width: 20%;
+    padding-top: .1rem;
+    color: #666;
+    position: relative;
+    display: block;
+}
+.W_footer>.on>.icon-d-home-none {
+    display: block;
+    width: .44rem;
+    height: .44rem;
+    background: url(../images/mingjiang/icon-d-home-on.png) no-repeat;
+    background-size: contain;
+}
+.W_footer a>.W_footer_img {
+    margin: 0 auto;
+    margin-bottom: .06rem;
+}
+.icon-d-home-none {
+    display: block;
+    background-image: url(../images/mingjiang/d.png);
+    background-position: -4.02rem -8.05rem;
+    background-size:9.26rem;
+    width: .44rem;
+    height: .44rem;
+}
+.W_footer a>.W_footer_title {
+    width: 80%;
+    margin: .12rem auto 0;
+    font-size: .2rem;
+    line-height: .28rem;
+    text-align: center;
+    color: #999;
+}
+.W_footer>.on>.icon-d-shop-none {
+    display: block;
+    width: .44rem;
+    height: .44rem;
+    background: url(../images/mingjiang/icon-d-shop-on.png) no-repeat;
+    background-size: contain;
+}
+.icon-d-shop-none {
+    display: block;
+    background-image: url(../images/mingjiang/d.png);
+    background-position: -3.48rem -8.05rem;
+    background-size:9.26rem;
+    width: .44rem;
+    height: .44rem;
+}
+.W_footer a>.W_footer_img.icon-d-service {
+    margin-top: -.5rem;
+}
+.icon-d-service {
+    display: block;
+    background-image: url(../images/mingjiang/d.png);
+    background-position: -6.54rem 0;
+    background-size:9.26rem;
+    width: 1rem;
+    height: 1rem;
+}
+.W_footer a>.W_footer_title.services {
+    margin: .08rem auto 0;
+}
+.W_footer>.on>.icon-d-find-none {
+    display: block;
+    width: .44rem;
+    height: .44rem;
+    background: url(../images/mingjiang/icon-d-find-on.png) no-repeat;
+    background-size: contain;
+}
+.icon-d-find-none {
+    display: block;
+    background-image: url(../images/mingjiang/d.png);
+    background-position: -5.1rem -8.05rem;
+    background-size:9.26rem;
+    width: .44rem;
+    height: .44rem;
+}
+.W_footer>.on>.icon-d-mine-none {
+    display: block;
+    width: .44rem;
+    height: .44rem;
+    background: url(../images/mingjiang/icon-d-mine-on.png) no-repeat;
+    background-size: contain;
+}
+.icon-d-mine-none {
+    display: block;
+    background-image: url(../images/mingjiang/d.png);
+    background-position: -8.62rem -7.48rem;
+    background-size:9.26rem;
+    width: .44rem;
+    height: .44rem;
+}
